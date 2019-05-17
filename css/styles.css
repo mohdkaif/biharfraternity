@@ -30,7 +30,7 @@ a, a:hover, a:focus {
 h1, h2, h3, h4, h5, h6 {
 
     color: #7c7d73;
-    font-family: 'Montserrat', sans-serif;
+    /*font-family: 'Montserrat', sans-serif;*/
 }
 
 h1 {
@@ -1608,13 +1608,13 @@ ul.program-list li small {
 
 .footer-right-contact {
     padding: 4px;
-    border: 1px solid #e1e1e1;
+    /* border: 1px solid #e1e1e1; */
     margin-top: 0;
     text-align: left;
 }
 
 .footer-right-contact .single-contact {
-    margin: 22px 22px;
+    margin: 8px 0;
     padding: 3px 55px;
     position: relative;
     color: #666;
@@ -1633,25 +1633,25 @@ ul.program-list li small {
 }
 button.btn-common{
     background: transparent;
-    color: #063;
-    border: 1px solid #063;
+    color: #39a5d4;
+    border: 1px solid #39a5d4;
     margin-top: 6px;
     font-size: 14px;
 }
 .footer-right-contact .contact-icon {
-    background: #1f784b;
+    background: #39a5d4;
     color: #fff;
     border-radius: 50%;
     font-size: 20px;
-    height: 42px;
+    height: 32px;
     left: 0;
-    padding-top: 8px;
+    padding-top: 3px;
     position: absolute;
     text-align: center;
-    top: 50%;
+    top: 42%;
     /*-webkit-transform: translateY(-50%);*/
     transform: translateY(-50%);
-    width: 42px;
+    width: 32px;
     /*background: -webkit-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);*/
     background: -moz-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
     background: -o-linear-gradient(90deg, #ffba00 0%, #ff6c00 100%);
@@ -1667,6 +1667,7 @@ button.btn-common{
 
 #contact #contactForm {
     margin-top: 20px;
+    margin-right: 35px;
 }
 
 .text-danger {
@@ -1837,7 +1838,7 @@ section#products1 {
 }
 }
 .footer-right-contact i.fa {
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     margin-right: auto !important;
     text-align: center;
