@@ -9,6 +9,7 @@
     <meta charset="utf-8"/>
     <title>Bihar</title>
     <link rel="icon" type="image/png" href="images/logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">  
     <link rel="stylesheet" type="text/css" href="css/styles.css">

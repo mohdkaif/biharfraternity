@@ -28,7 +28,7 @@
 							<ul class="links-footer contactlinks">
 								<li class="clearfix">
 									<i class="fa fa-map-marker fontaddress float-left" style="font-size: 22px;"></i>
-									<div class="float-left" style="padding-right: 8px;padding-bottom: 10px;">Hemingstedter Weg<br> 10,22607 Hamburg</div></li>
+									<div class="float-left" style="padding-right: 8px;padding-bottom: 10px;font-family: 'Montserrat', sans-serif;">Hemingstedter Weg<br> 10,22607 Hamburg</div></li>
 								<li class="clearfix">
 									<i class="fa fa-envelope fontaddress float-left"></i>
 									<a href="mailto:connect@biharfraternity.org" class="float-left">connect@biharfraternity.org</a>
