@@ -7,9 +7,9 @@
 							<h3>Helpful Links</h3>
 							<div>
 								<ul class="links-footer">
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="impressum.html">Impressum</a></li>
-									<li><a href="datenschutz.html">Datenschutz</a></li>
+									<li><a href="about.php">About Us</a></li>
+									<li><a href="impressum.php">Impressum</a></li>
+									<li><a href="datenschutz.php">Datenschutz</a></li>
 								</ul>
 							</div>
 							<h3>Social Links</h3>
