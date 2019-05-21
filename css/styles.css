@@ -1614,18 +1614,19 @@ ul.program-list li small {
 }
 
 .footer-right-contact .single-contact {
-    margin: 8px 0;
-    padding: 3px 55px;
+    margin: 5px 0 0;
+    padding: 3px 25px;
     position: relative;
     color: #666;
 }
 
 .footer-right-contact .single-contact p {
     margin-bottom: 5px;
+    color: #000;
 }
 
 .footer-right-contact .single-contact p a {
-    color: #666;
+    color: #000;
 }
 
 .footer-right-contact .single-contact p a:hover {
@@ -1639,7 +1640,7 @@ button.btn-common{
     font-size: 14px;
 }
 .footer-right-contact .contact-icon {
-    background: #39a5d4;
+    /* background: #39a5d4; */
     color: #fff;
     border-radius: 50%;
     font-size: 20px;
@@ -1647,7 +1648,7 @@ button.btn-common{
     left: 0;
     padding-top: 3px;
     position: absolute;
-    text-align: center;
+    text-align: left;
     top: 42%;
     /*-webkit-transform: translateY(-50%);*/
     transform: translateY(-50%);
@@ -1839,7 +1840,7 @@ section#products1 {
 }
 .footer-right-contact i.fa {
     font-size: 16px;
-    color: #ffffff;
+    color: #39a5d4;
     margin-right: auto !important;
     text-align: center;
 }

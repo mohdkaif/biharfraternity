@@ -10,7 +10,7 @@
     <title>Bihar</title>
     <link rel="icon" type="image/png" href="images/logo.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">  
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
@@ -34,9 +34,10 @@
 		  <div class="collapse navbar-collapse navbarright" id="collapsibleNavbar">
 		    <ul class="navbar-nav">
 		      <li class="nav-item mobile-dropdown">
-		        <a class="nav-link navListing" href="about.php">About
+		        <a class="nav-link navListing" href="javascript:void(0);">About
 		        <i class="fa fa-chevron-down"></i></a>
 		        <ul class="dropdown mobileToggle">
+		        	<li><a href="about.php">About Us</a></li>
 		        	<li><a href="our-team.php">Our Team</a></li>
 		        </ul>
 		      </li>
