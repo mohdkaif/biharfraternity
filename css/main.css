@@ -60,6 +60,7 @@ ul.dropdown {
     list-style-type: none;
     display: none; 
     top: 50px;
+    border: 1px solid #ddd;
     /*box-shadow: 2px 2px 3px #4e4b4b;*/
     padding: 10px 15px;
     z-index: 9;
@@ -69,6 +70,7 @@ ul.dropdown {
 }
 .dropdown li a{
   color:#000;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 .dropdown li a:hover{
@@ -530,7 +532,7 @@ section#contact {
     background-color: #f2f2f2;
 }
 .contact-form {
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 25px;
 }
 .contact-form-area {
