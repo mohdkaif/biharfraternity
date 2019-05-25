@@ -45,12 +45,12 @@ require('header.php');
 					<div class="owl-carousel" id="galleryslider">
 						<div class="item border-all">
 							<div class="row">
-								<div class="col-md-5">
+								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
 										<img src="images/gallery.png" alt="gallery">
 									</div>
 								</div>
-								<div class="col-md-7">
+								<div class="col-md-7 col-sm-12">
 									<div class="gallerycontent">
 										<h2 class="eventname">Event Name</h2>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s....</p>
@@ -63,12 +63,12 @@ require('header.php');
 						</div>
 						<div class="item border-all">
 							<div class="row">
-								<div class="col-md-5">
+								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
 										<img src="images/Holi_Dusseldorf.jpg" alt="gallery">
 									</div>
 								</div>
-								<div class="col-md-7">
+								<div class="col-md-7 col-sm-12">
 									<div class="gallerycontent">
 										<h2 class="eventname">Event Name</h2>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s....</p>
@@ -81,12 +81,12 @@ require('header.php');
 						</div>
 						<div class="item border-all">
 							<div class="row">
-								<div class="col-md-5">
+								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
 										<img src="images/gallery2.png" alt="gallery">
 									</div>
 								</div>
-								<div class="col-md-7">
+								<div class="col-md-7 col-sm-12">
 									<div class="gallerycontent">
 										<h2 class="eventname">Event Name</h2>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s....</p>

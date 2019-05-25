@@ -108,10 +108,10 @@
                   items: 1
               },
               500: {
-                  items: 2
+                  items: 1
               },
               991: {
-                  items: 2
+                  items: 1
               },
               1200: {
                   items: 1
