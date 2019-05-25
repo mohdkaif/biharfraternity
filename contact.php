@@ -58,7 +58,7 @@ require('header.php');
                   <div class="contact-icon">
                     <i class="fa fa-map-marker"></i>
                   </div>
-                  <p>Hemingstedter Weg 10,22607 Hamburg</p>
+                  <p>Hemingstedter Weg 10,22607 Hamburg, Germany</p>
                 </div>
                 <div class="single-contact">
                   <div class="contact-icon">
