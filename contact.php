@@ -5,11 +5,11 @@ require('header.php');
     <div class="contact-form">
       <div class="container">
       	<div class="row text-center">
-			<div class="col-md-12">
-				<h2 class="tittlehead tittlehead-inner">Contact Us</h2>
-				<p>We are reachable through email as well as post.</p>
-			</div>
-		</div>
+    			<div class="col-md-12">
+    				<h2 class="tittlehead tittlehead-inner">Contact Us</h2>
+    				<p>We are reachable through email as well as post.</p>
+    			</div>
+		    </div>
         <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">          
           <div class="col-md-7 col-lg-7 col-sm-12">
             <div class="contact-block">
@@ -72,8 +72,7 @@ require('header.php');
              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2369.5531887026164!2d9.866861315394454!3d53.56574316595651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b184462c435629%3A0x5b8505f974f80749!2sHemmingstedter+Weg+10%2C+22607+Hamburg%2C+Germany!5e0!3m2!1sen!2sin!4v1557737564973!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
              </div>
           </div>
-          <!-- <div class="col-md-12 ">
-             
+          <!-- <div class="col-md-12 ">    
           </div> -->
         </div>
       </div>
