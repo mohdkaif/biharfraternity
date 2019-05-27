@@ -135,16 +135,16 @@ a.nav-link.navListing {
   font-family: 'Montserrat', sans-serif;
 }
 .paragraph-content p{
-   font-family: 'Lora', serif; 
-  margin-bottom: 4px;
-  /* font-family: 'Roboto', sans-serif; */
-  /* letter-spacing: -1px; */
-  /* color: #696969; */
-  font-size: 17px;
-  /* font-style: normal; */
-  /* font-weight: 600; */
-  /* font-weight: bold; */
-  line-height: 26px;
+   font-family: 'Lora', serif;
+   margin-bottom: 4px;
+   /* font-family: 'Roboto', sans-serif; */
+   /* letter-spacing: -1px; */
+   /* color: #696969; */
+   font-size: 16px;
+   /* font-style: normal; */
+   /* font-weight: 600; */
+   /* font-weight: bold; */
+   line-height: 2;
 }
 .sectionAboutWrap{
   background-color: #f1f1f1;
@@ -206,15 +206,15 @@ ul.about-gallery li {
 }
 .gallerycontent p{
   text-align: left;
-   font-family: 'Lora', serif,Regular; 
+  font-family: 'Lora', serif,Regular;
   margin-bottom: 4px;
   /* letter-spacing: -1px; */
   /* color: #696969; */
-  font-size: 17px;
-   font-style: normal; 
+  font-size: 16px;
+  font-style: normal;
   /* font-weight: 600; */
   /* font-weight: bold; */
-  line-height: 26px;
+  line-height: 2;
   color: rgba(16,17,17,0.961);
 }
 .gallery-img{
@@ -356,13 +356,13 @@ ul.about-gallery li {
   color: rgba(13,13,13,1);
 }
 .testimonial-content p{
-  font-size: 16px;
+  font-size: 15px;
   /* font-family: Segoe UI; */
   font-style: normal;
   /* font-family: "Lora", serif; */
   /*font-size: 15px;*/
   /* font-style: italic; */
-  line-height: 24px;
+  line-height: 1.5;
   margin-bottom: 10px;
   font-weight: normal;
   color: rgba(13,13,13,1);
@@ -639,7 +639,10 @@ section#contact {
       margin-top: 10px;
   }
   .footer-right-contact .single-contact{
-    padding: 3px 0 3px 55px;
+    /*padding: 3px 0 3px 55px;*/
+  }
+  .footer-right-contact .single-contact{
+    margin: 0;
   }
   .contact-form-area{
     padding: 30px 10px 10px;
