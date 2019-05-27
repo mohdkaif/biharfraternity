@@ -144,7 +144,7 @@ a.nav-link.navListing {
    /* font-style: normal; */
    /* font-weight: 600; */
    /* font-weight: bold; */
-   line-height: 2;
+   line-height: 26px;
 }
 .sectionAboutWrap{
   background-color: #f1f1f1;
@@ -214,7 +214,7 @@ ul.about-gallery li {
   font-style: normal;
   /* font-weight: 600; */
   /* font-weight: bold; */
-  line-height: 2;
+  line-height: 26px;
   color: rgba(16,17,17,0.961);
 }
 .gallery-img{
