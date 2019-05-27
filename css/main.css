@@ -115,15 +115,10 @@ a.nav-link.navListing {
 .tittlehead{
   color: #39a5d4;
   font-size: 30px;
-   font-family: "Lora", serif; 
-  /*font-family: 'Roboto', sans-serif;*/
-  /* font-size: 24px; */
+  font-family: "Lora", serif; 
   margin-bottom: 4px;
-   font-style: italic; 
+  font-style: italic; 
   text-transform: uppercase;
-  /*font-family: Tahoma;*/
-  /*font-style: normal;*/
-  /*font-weight: normal;*/
   letter-spacing: 1px;
 }
 .about-us-section{
@@ -135,16 +130,10 @@ a.nav-link.navListing {
   font-family: 'Montserrat', sans-serif;
 }
 .paragraph-content p{
-   font-family: 'Lora', serif;
-   margin-bottom: 4px;
-   /* font-family: 'Roboto', sans-serif; */
-   /* letter-spacing: -1px; */
-   /* color: #696969; */
-   font-size: 16px;
-   /* font-style: normal; */
-   /* font-weight: 600; */
-   /* font-weight: bold; */
-   line-height: 26px;
+  font-family: 'Lora', serif;
+  margin-bottom: 4px;
+  font-size: 16px;
+  line-height: 26px;
 }
 .sectionAboutWrap{
   background-color: #f1f1f1;
@@ -156,9 +145,6 @@ a.nav-link.navListing {
 .about-gallery{
   display: flex;
   padding: 0;
-  /*flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;*/
   list-style-type: none;
 }
 .about-gallery li img{
@@ -166,14 +152,14 @@ a.nav-link.navListing {
   width: 120px;
 }
 ul.about-gallery li {
-    padding: 10px;
+  padding: 10px;
 }
 .aboutGallery{
   padding-top: 20px;
 }
 .team-desc p {
-    color: #000;
-    font-size: 16px;
+  color: #000;
+  font-size: 16px;
 }
 
 
@@ -208,12 +194,8 @@ ul.about-gallery li {
   text-align: left;
   font-family: 'Lora', serif,Regular;
   margin-bottom: 4px;
-  /* letter-spacing: -1px; */
-  /* color: #696969; */
   font-size: 16px;
   font-style: normal;
-  /* font-weight: 600; */
-  /* font-weight: bold; */
   line-height: 26px;
   color: rgba(16,17,17,0.961);
 }
@@ -239,13 +221,8 @@ ul.about-gallery li {
   height: 100%;
   border: 1px solid #ddd;
 }
-/*.team-section .item img:hover{
-  box-shadow: -14.142px 14.142px 20px 0px rgba(157, 157, 157, 0.5);
-}*/
 .team-section .item .overlay {
   position: absolute;
-  /* top: 0; */
-  /* bottom: 0; */
   left: 0;
   right: 0;
   bottom: 0;
@@ -268,12 +245,11 @@ ul.about-gallery li {
 }
 .team-section .item-team {
     margin-bottom: 30px;
-    /*display: flex;*/
 }
 .teamimg{
   height: 279px;
-   position: relative;
-    width: 253px;
+  position: relative;
+  width: 253px;
 }
 .bg-color{
   background-color: #f1f1f1;
@@ -283,9 +259,9 @@ ul.about-gallery li {
   background: #fff;
 }
 .team-section .item-team img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .team-section .item-team:hover .overlay h3{
   color: #fff;
