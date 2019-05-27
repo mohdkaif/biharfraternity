@@ -56,6 +56,9 @@ span.navbar-toggler-icon.navBarr i {
 .navbarright{
   justify-content: flex-end;
 }
+a.nav-link.navListing:hover{
+  color: #000;
+}
 ul.dropdown {
     list-style-type: none;
     display: none; 
