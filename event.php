@@ -1,18 +1,10 @@
 <?php
 require('header.php');
 ?>
-<section class="team-section our_team_page backgroundgray">
+
+<section class="team-section our_team_page">
 		<div class="container">
-			<div class="row text-center">
-    			<div class="col-md-12">
-    				<h2 class="tittlehead tittlehead-inner">Upcoming Event</h2>
-    			</div>
-		    </div>
-		    <div class="row text-center">
-    			<div class="col-md-12">
-    				<div class="event-img"><img src="images/upcoming-event.jpg" alt="event"></div>
-    			</div>
-		    </div>
+			<div class="aboutView"><span>coming soon</span></div>
 		</div>
 </section>
 <?php

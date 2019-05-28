@@ -10,34 +10,16 @@ require('header.php');
 			</div>
 			<div class="row m-t-10">
 				<div class="col-md-12">
-					<div class="item border-all m-b-30 backgroundwhite">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
-										<a href="images/gallery/biharMahotsav1.jpg" class="js-smartPhoto"  data-id="id1">
-											<img src="images/gallery/biharMahotsav1.jpg" alt="gallery">
-										</a>
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
-										<h2 class="eventname">Bihar Mahotsav</h2>
-										<p>Folk Dance by group of ladies, Bhojpuri Songs (Pop & Traditional) by Netherlands based International Bhojpuri singer Raj Mohan & troupe, Skit and dance performances by boys, Discussions, Display of Culture, Food and many more. Stay tuned for details. 
-										Indian Consul General of Frankfurt Ms Pratibha Parkar is the Chief Guest. Guest of Honor shall be first Indian Latin actor Mr Prabhakar Sharan.
-										</p>
-										<div class="float-right text-color">
-											<a href="view-single-gallery.php?id=1">Read More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+					
 						<div class="item border-all m-b-30 backgroundwhite">
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
-										<a href="images/gallery/gallery.png" class="js-smartPhoto"  data-id="id2">
+										<a class="fancybox" rel="fancybox-thumb" href="images/gallery/gallery.png">
 											<img src="images/gallery/gallery.png" alt="gallery">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</a>
 									</div>
 								</div>
@@ -55,8 +37,11 @@ require('header.php');
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
-										<a href="images/gallery/Holi_Dusseldorf.jpg" class="js-smartPhoto"  data-id="id3">
+										<a href="images/gallery/Holi_Dusseldorf.jpg" class="fancybox"  rel="fancybox-thumb">
 											<img src="images/gallery/Holi_Dusseldorf.jpg" alt="gallery">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</a>
 									</div>
 								</div>
@@ -75,8 +60,11 @@ require('header.php');
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
-										<a href="images/gallery/Holi_Playing_Dusseldorf.jpg" class="js-smartPhoto"  data-id="id4">
+										<a href="images/gallery/Holi_Playing_Dusseldorf.jpg" class="fancybox"  rel="fancybox-thumb">
 											<img src="images/gallery/Holi_Playing_Dusseldorf.jpg" alt="gallery">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</a>
 									</div>
 								</div>
@@ -95,8 +83,11 @@ require('header.php');
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
-										<a href="images/gallery/gallery2.jpg" class="js-smartPhoto"  data-id="id5">
+										<a href="images/gallery/gallery2.jpg" class="fancybox"  rel="fancybox-thumb">
 											<img src="images/gallery/gallery2.jpg" alt="gallery">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</a>
 									</div>
 								</div>
@@ -131,48 +122,61 @@ require('header.php');
 								</div>
 							</div>
 						</div> -->
-						<!-- <div class="item border-all m-b-30 backgroundwhite">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
-										<img src="images/gallery/Conclave_Inaguguration_Patna.jpg" alt="gallery">
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
-										<h2 class="eventname">Conclave Inaguguration Patna</h2>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s....</p>
-										<div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div> -->
-						<!-- <div class="item border-all m-b-30 backgroundwhite">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
-										<img src="images/gallery/Conclave_Health-Education_Patna.jpg" alt="gallery">
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
-										<h2 class="eventname">Conclave Health Education Patna</h2>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s....</p>
-										<div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div> -->
 						<div class="item border-all m-b-30 backgroundwhite">
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
-										<a href="images/gallery/BiharDiwas_Berlin_Group.jpg" class="js-smartPhoto"  data-id="id6">
+										<a href="images/gallery/Projects.jpg" class="fancybox"  rel="fancybox-thumb">
+											<img src="images/gallery/Projects.jpg" alt="gallery">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-7 col-sm-12">
+									<div class="gallerycontent">
+										<h2 class="eventname">Project Jyoti</h2>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										<!-- <div class="float-right text-color">
+											<a href="javascript:void(0);">Read More...</a>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item border-all m-b-30 backgroundwhite">
+							<div class="row">
+								<div class="col-md-5 col-sm-12">
+									<div class="gallery-img">
+										<a href="images/gallery/Awari_Madhubani.jpg" class="fancybox"  rel="fancybox-thumb">
+											<img src="images/gallery/Awari_Madhubani.jpg" alt="gallery">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-7 col-sm-12">
+									<div class="gallerycontent">
+										<h2 class="eventname">Project Jyoti</h2>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										<!-- <div class="float-right text-color">
+											<a href="javascript:void(0);">Read More...</a>
+										</div> -->
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item border-all m-b-30 backgroundwhite">
+							<div class="row">
+								<div class="col-md-5 col-sm-12">
+									<div class="gallery-img">
+										<a href="images/gallery/BiharDiwas_Berlin_Group.jpg" class="fancybox"  rel="fancybox-thumb">
 											<img src="images/gallery/BiharDiwas_Berlin_Group.jpg" alt="gallery">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</a>
 									</div>
 								</div>
@@ -219,8 +223,11 @@ require('header.php');
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
-										<a href="images/gallery/teatalk.jpg" class="js-smartPhoto"  data-id="id7">
+										<a class="fancybox" rel="fancybox-thumb" href="images/gallery/teatalk.jpg">
 											<img src="images/gallery/teatalk.jpg" alt="gallery">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</a>
 									</div>
 								</div>

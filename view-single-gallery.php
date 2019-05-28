@@ -11,31 +11,6 @@ require('header.php');
 		</div> -->
 		<div class="row text-center">
 			<div class="col-md-12">
-				<?php
-				if($_REQUEST['id']==1){
-				?>
-				<div class="item border-all m-b-30 backgroundwhite">
-					<div class="row">
-						<div class="col-md-5 col-sm-12">
-							<div class="gallery-img">
-								<img src="images/gallery/biharMahotsav1.jpg" alt="gallery">
-							</div>
-						</div>
-						<div class="col-md-7 col-sm-12">
-							<div class="gallerycontent">
-								<h2 class="eventname">Bihar Mahotsav</h2>
-								<p>Folk Dance by group of ladies, Bhojpuri Songs (Pop & Traditional) by Netherlands based International Bhojpuri singer Raj Mohan & troupe, Skit and dance performances by boys, Discussions, Display of Culture, Food and many more. Stay tuned for details. 
-								Indian Consul General of Frankfurt Ms Pratibha Parkar is the Chief Guest. Guest of Honor shall be first Indian Latin actor Mr Prabhakar Sharan.
-								Special guests include Indian German actor Mr Prashant Prabhakar (Jaiswal), Bravo Pharma CMD Mr Rakesh Pandey and Trivago guy Mr Abhinav Kumar.</p>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-				<?php
-				}elseif($_REQUEST['id']==2){
-				?>
-				
 				
 				<div class="item border-all m-b-30 backgroundwhite">
 					<div class="row">
@@ -55,10 +30,6 @@ require('header.php');
 						</div>
 					</div>
 				</div>
-				
-				<?php
-				}
-				?>
 			</div>
 		</div>
 	</div>

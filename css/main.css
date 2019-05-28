@@ -225,6 +225,10 @@ ul.about-gallery li {
 .team-section{
   padding: 20px 0 15px;
 }
+.team-desc h4{
+  color:#000;
+  font-size: 22px;
+}
 .team-section .item{
   height: 279px;
 }
@@ -314,10 +318,19 @@ ul.about-gallery li {
 
 /*---------------------start event-----------------------------*/
 .event-img{
-  margin-top:20px;
+  margin-top:30px;
 }
-.event-img img {
-    height: 460px;
+.event-img{
+  height: 260px;
+  width: 100%;
+}
+.event-img img{
+  height: 100%;
+  width: 100%;
+}
+.containerfluid{
+  margin: 0 40px;
+
 }
 /*---------------------end event-----------------------------*/
 
@@ -385,15 +398,14 @@ ul.about-gallery li {
   object-fit: contain;
 }
 .testimonial-content h3{
-  font-size: 24px;
   font-style: italic;
   font-style: normal;
-  font-size: 20px;
+  font-size: 22px;
   margin-top: 9px;
   color: rgba(13,13,13,1);
 }
 .testimonial-content p{
-  font-size: 15px;
+  font-size: 16px;
   font-style: normal;
   line-height: 1.5;
   margin-bottom: 10px;
@@ -523,6 +535,28 @@ button.btn-btn-blue {
   font-size: 0;
   position: absolute;
 }
+
+.view-gallery {
+    position: inherit;
+}
+.fancybox:hover .view-gallery i {
+  opacity: 1;
+  background-color: rgba(0,0,0,.3);
+}
+/*.view-gallery{
+  position: relative;
+}*/
+.view-gallery i {
+    position: absolute;
+    top: 46%;
+    opacity: 0;
+    z-index: 999;
+    transition: .3s all;
+    font-size: 30px;
+    left: 48%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav{
   top: -33px;
   right:0;
@@ -584,16 +618,18 @@ button.btn-btn-blue {
 }
 .view-more {
     background-color: transparent;
-    color: #39a5d4;
+    color: #000066;
     font-weight: 600;
-    border: 2px solid #39a5d4;
+    border: 2px solid #000066;
     border-radius: 6px;
     padding: 5px 15px;
     font-size: 16px;
     margin-top: 8px;
     transition: .3s all;
 }
-
+.view-more:hover{
+  color: #000066;
+}
 .video-gallery-section{
   margin-top:70px;
 }
@@ -663,6 +699,9 @@ section#contact {
   }
   li.nav-item {
       position: relative;
+  }
+  .our_team_page .tittlehead{
+    margin-top:20px;
   }
   ul.dropdown{
     top: 35px;

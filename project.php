@@ -14,8 +14,11 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-4">
 							<div class="project-side-img">
-								<a href="images/Prabhat Khabar_Project Jyoti.jpg" class="js-smartPhoto"  data-id="id-1">
+								<a href="images/Prabhat Khabar_Project Jyoti.jpg" class="fancybox" rel="fancybox-thumb">
 									<img src="images/Prabhat Khabar_Project Jyoti.jpg" alt="project">
+									<div class="view-gallery">
+										<i class="fa fa-eye"></i>
+									</div>
 								</a>
 							</div>
 						</div>
@@ -23,29 +26,41 @@ require('header.php');
 							<div class="row">
 								<div class="col-md-6">
 									<div class="project-img">
-										<a href="images/Dighaun_Khagaria.jpg" class="js-smartPhoto"  data-id="id-2">
+										<a href="images/Dighaun_Khagaria.jpg" class="fancybox" rel="fancybox-thumb">
 											<img src="images/Dighaun_Khagaria.jpg" alt="project" data-group="group">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</a>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="project-img">
-										<a href="images/Awarded_Madhepura.jpg" class="js-smartPhoto"  data-id="id-3">
+										<a href="images/Awarded_Madhepura.jpg" class="fancybox" rel="fancybox-thumb">
 											<img src="images/Awarded_Madhepura.jpg" alt="project" data-group="group">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</a>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="project-img">
-										<a href="images/Awari_Madhubani.jpg" class="js-smartPhoto"  data-id="id-4">
+										<a href="images/Awari_Madhubani.jpg" class="fancybox" rel="fancybox-thumb">
 											<img src="images/Awari_Madhubani.jpg" alt="project" data-group="group">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</a>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<div class="project-img">
-										<a href="images/Project Jyoti_Banner.png" class="js-smartPhoto"  data-id="id-5">
+										<a href="images/Project Jyoti_Banner.png" class="fancybox" rel="fancybox-thumb">
 											<img src="images/Project Jyoti_Banner.png" alt="project" data-group="group">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</a>
 									</div>
 								</div>
@@ -68,22 +83,31 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-4">
 							<div class="project-img-khushi">
-								<a href="images/Independence Speech_Khagaria.jpg" class="js-smartPhoto"  data-id="id-6">
-									<img src="images/Independence Speech_Khagaria.jpg" alt="project">
+								<a href="images/Independence Speech_Khagaria.jpg" class="fancybox" rel="fancybox-thumb">
+									<img src="images/Awari_Madhubani3.jpg" alt="project">
+									<div class="view-gallery">
+										<i class="fa fa-eye"></i>
+									</div>
 								</a>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="project-img-khushi">
-								<a href="images/Independence Day_Khagaria.jpg" class="js-smartPhoto"  data-id="id-7">
-									<img src="images/Independence Day_Khagaria.jpg" alt="project">
+								<a href="images/Independence Day_Khagaria.jpg" class="fancybox" rel="fancybox-thumb">
+									<img src="images/Awari_Madhubani2.jpg" alt="project">
+									<div class="view-gallery">
+										<i class="fa fa-eye"></i>
+									</div>
 								</a>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="project-img-khushi">
-								<a href="images/Sheikhpura.jpg" class="js-smartPhoto"  data-id="id-8">
-									<img src="images/Sheikhpura.jpg" alt="project">
+								<a href="images/Sheikhpura.jpg" class="fancybox" rel="fancybox-thumb">
+									<img src="images/Awari_Madhubani1.jpg" alt="project">
+									<div class="view-gallery">
+										<i class="fa fa-eye"></i>
+									</div>
 								</a>
 							</div>
 						</div>

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">  
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-     <link rel="stylesheet" type="text/css" href="css/smartphoto.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" >
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css">
 

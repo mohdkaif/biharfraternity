@@ -81,12 +81,12 @@
 		  </div>
 		</div>
 	</footer>
-
 	<script src="js/jquery-min.js"></script>
+
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/smartphoto.min.js"></script>
     <script src="js/owl.carousel.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script type="text/javascript">
         $(document).ready(function() {
@@ -162,8 +162,12 @@
         $('#our_team').on('mouseover',function(){
             owl.trigger('stop.owl.autoplay')
         })
-        window.addEventListener('load',function(){
-          new smartPhoto(".js-smartPhoto");
+       
+        $(document).ready(function() {
+          $(".fancybox").fancybox({
+            openEffect  : 'none',
+            closeEffect : 'none'
+          });
         });
 
 

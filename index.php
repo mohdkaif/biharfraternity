@@ -41,26 +41,7 @@ require('header.php');
 			<div class="row m-t-10">
 				<div class="col-md-12">
 					<div class="owl-carousel" id="galleryslider">
-						<div class="item border-all">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
-										<img src="images/gallery/biharMahotsav1.jpg" alt="gallery">
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
-										<h2 class="eventname">Bihar Mahotsav</h2>
-										<p>Folk Dance by group of ladies, Bhojpuri Songs (Pop & Traditional) by Netherlands based International Bhojpuri singer Raj Mohan & troupe, Skit and dance performances by boys, Discussions, Display of Culture, Food and many more. Stay tuned for details. 
-										Indian Consul General of Frankfurt Ms Pratibha Parkar is the Chief Guest. Guest of Honor shall be first Indian Latin actor Mr Prabhakar Sharan.
-										</p>
-										<div class="float-right text-color">
-											<a href="view-single-gallery.php?id=1">Read More</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+						
 						<div class="item border-all">
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
@@ -128,49 +109,49 @@ require('header.php');
 											इसके अलावा कवि सम्मेलन जिसमें मशहूर हास्य कवियों की टोली शम्भू शिखर, चिराग़ जैन, रमेश मुस्कान व स्वाति ख़ुशबू अपनी प्रस्तुतियों से लोगों को लोटपोट करने वाले हैं। साथ ही बिहार के उभरते गायक... 
 										</p>
 										<div class="float-right text-color">
-											<a href="view-single-gallery.php?id=2">Read More</a>
+											<a href="view-single-gallery.php">Read More</a>
 										</div>
 										
 									</div>
 								</div>
 							</div>
 						</div>
-						<!-- <div class="item border-all">
+						<div class="item border-all">
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
-										<img src="images/gallery/Conclave_Kavi Sammelan_Patna.jpg" alt="gallery">
+										<img src="images/gallery/Projects.jpg" alt="gallery">
 									</div>
 								</div>
 								<div class="col-md-7 col-sm-12">
 									<div class="gallerycontent">
-										<h2 class="eventname">Conclave Kavi Sammelan Patna</h2>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s....</p>
-										<div class="float-right text-color">
+										<h2 class="eventname">Project Jyoti</h2>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										<!-- <div class="float-right text-color">
 											<a href="javascript:void(0);">Read More...</a>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</div>
-						</div> -->
-						<!-- <div class="item border-all">
+						</div>
+						<div class="item border-all m-b-30 backgroundwhite">
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
-										<img src="images/gallery/Conclave_Inaguguration_Patna.jpg" alt="gallery">
+										<img src="images/gallery/Awari_Madhubani.jpg" alt="gallery">
 									</div>
 								</div>
 								<div class="col-md-7 col-sm-12">
 									<div class="gallerycontent">
-										<h2 class="eventname">Conclave Inaguguration Patna</h2>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s....</p>
-										<div class="float-right text-color">
+										<h2 class="eventname">Project Jyoti</h2>
+										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										<!-- <div class="float-right text-color">
 											<a href="javascript:void(0);">Read More...</a>
-										</div>
+										</div> -->
 									</div>
 								</div>
 							</div>
-						</div> -->
+						</div>
 						<!-- <div class="item border-all">
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
