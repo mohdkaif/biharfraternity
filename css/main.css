@@ -265,29 +265,24 @@ ul.about-gallery li {
 }
 .team-section .item-team:hover .overlay h3{
   color: #fff;
-    padding: 15px 20px 20px;
-    font-size: 20px;
-    text-align: center;
+  padding: 15px 20px 20px;
+  font-size: 20px;
+  text-align: center;
 }
 .team-section .item-team img {
     height: 100%;
     border: 1px solid #ddd;
-    /*padding: 20px;*/
 }
 .team-desc h3{
   color:#000066;
 }
 .team-section .teamimg .overlay {
     position: absolute;
-    /* top: 0; */
     bottom: 0;
     left: 0;
     right: 0;
-    /* padding: 10px; */
-    /* bottom: 40px; */
     height: 0;
     margin: 0 auto;
-    /* margin: 0 -15px; */
     width: 90%;
     opacity: 0;
     transition: .5s ease;
@@ -321,23 +316,16 @@ ul.about-gallery li {
   object-fit: contain;
 }
 .testimonial-content h3{
-  /* font-family: Segoe UI; */
-  /* font-family: "Lora", serif; */
   font-size: 24px;
   font-style: italic;
   font-style: normal;
-  /* font-weight: bold; */
   font-size: 20px;
   margin-top: 9px;
   color: rgba(13,13,13,1);
 }
 .testimonial-content p{
   font-size: 15px;
-  /* font-family: Segoe UI; */
   font-style: normal;
-  /* font-family: "Lora", serif; */
-  /*font-size: 15px;*/
-  /* font-style: italic; */
   line-height: 1.5;
   margin-bottom: 10px;
   font-weight: normal;
@@ -345,16 +333,13 @@ ul.about-gallery li {
 }
 .testimonial-outer {
   padding: 30px 20px;
-  /*box-shadow: 0px 2px 6px 4px #ddd;*/
 }
 .border-all-side{
   border:2px solid #c9c9c9;
 }
 .testimonial-content a{
   color: rgba(48,88,167,1);
-  /*font-family: Segoe UI;*/
   font-family: 'Montserrat', sans-serif;
-  /*font-style: normal;*/
   font-size: 16px;
   font-weight: normal;
 }
@@ -382,16 +367,11 @@ ul.about-gallery li {
   border-radius: 50%;
 }
 .Sociallinks li i{
-  /* text-align: center; */
   color: #006;
-  /* display: flex; */
   margin-right: 0;
-  /* align-items: center; */
-  /* padding: 8px; */
   font-size: 15px;
 }
 .footer-links h3{
-  /* font-family: Tahoma; */
   font-family: 'Montserrat', sans-serif;
   font-size: 18px;
   color: #fff;
@@ -403,7 +383,6 @@ ul.about-gallery li {
   margin-bottom: 20px;
 }
 .Sociallinks li{
-  /* display: inline-block; */
 }
 .Sociallinks li img {
     height: 40px;
@@ -411,7 +390,6 @@ ul.about-gallery li {
 }
 .footer-links ul li{
   color: #d4cece;
-  /* font-family: Tahoma; */
   font-style: normal;
   font-weight: normal;
   line-height: 22px;
@@ -425,18 +403,12 @@ ul.about-gallery li {
 }
 .footer-links ul li a{
   color: #d4cece;
-  /* font-family: Tahoma; */
   font-family: 'Montserrat', sans-serif;
-  /* line-height: 34px; */
   font-size: 14px;
 }
 .footer-links input{
-  /* border:2px solid #c9c9c9; */
-  /* border-radius: 20px; */
   font-size: 13px;
-  /* height: 46px; */
   width: 86%;
-  /* height: 42px; */
 }
 .Sociallinks{
   display: flex;
@@ -445,10 +417,8 @@ ul.about-gallery li {
   margin-bottom: 8px;
 }
 .footer-links textarea{
-  /* border:2px solid #c9c9c9; */
   width: 86%;
   height: 81px;
-  /* border-radius: 20px; */
   font-size: 13px;
 }
 button.btn-btn-blue {
@@ -485,7 +455,6 @@ button.btn-btn-blue {
   position: absolute;
 }
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav{
-  /*display: block !important;*/
   top: -33px;
   right:0;
   font-size: 0;
@@ -509,12 +478,6 @@ button.btn-btn-blue {
     background-color: #39a5d4;
     border: 2px solid #39a5d4;
     font-family: fontAwesome;
-    /*position: absolute;
-    top: -29px;
-    color: #7c7d73;
-    border: 1px solid #7c7d73;
-    padding: 0 4px 0 5px;
-    right: 26px;*/
 }
 .owl-carousel .owl-nav .owl-prev:hover:before{
   background-color: #fff;
@@ -546,7 +509,6 @@ button.btn-btn-blue {
     background-color: #39a5d4;
     border: 2px solid #39a5d4;
     font-family: fontAwesome;
-    /*position: absolute;*/
 }
 .aboutView{
   position: relative;
@@ -571,7 +533,6 @@ section#contact {
 }
 .contact-form-area {
     background: #fff;
-    /* box-shadow: 0 0 30px #ededed; */
     padding: 30px 40px 10px;
 }
 .contact-form-area h2 {
@@ -615,7 +576,6 @@ section#contact {
       margin-top: 10px;
   }
   .footer-right-contact .single-contact{
-    /*padding: 3px 0 3px 55px;*/
   }
   .footer-right-contact .single-contact{
     margin: 0;
