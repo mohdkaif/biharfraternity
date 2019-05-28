@@ -58,7 +58,13 @@ require('header.php');
 						<div class="col-md-9">
 							<div class="testimonial-content">
 								<h3>Ravi Shankar Prasad</h3>
-								<p>I am immensely pleased to know that a global forum namely "Bihar Fraternity" is being launched on</p>	
+								<p>I am imensely pleased to know that a global forum namely "Bihar Fraternity" is being launched on 26th, May, 2018 Berlin, with the purpose of forgiveness of the people having roots in Bihar and have made in Germany as their homes.
+
+								Today, the Overseas Indians Community is one of the most diverse, eminently successful & best-educated communities across the globe and they have the strong desire to see theirmotherland prosper. Ensuring the safety, security and dignity of the overseas Indian community has been a core focus of our government. The Indian communtiy in Germany can play the role of bridge building betwen the two countries. It has always been the endeavour of our government to facilitate an active and productive role by our diaspora in overall development of the nation.
+
+								I believe the "Bihar Fraternity" would serve as a platform to bring the talented Indian diaspora from Bihar to address common issues and promote fraternity. I am sure that the fraternity would also facilitate the preservation and promotion of the rich culture and heritage of Bihar in Germany. I also encourage the forum to play a significant role in contributing towards the upliftment of social status of the less-privileged back home.
+
+								When I complimet the "Bihar Fraternity" for its sincere efforts, I extend my best wishes for grand success of the launch event.</p>	
 							</div>
 						</div>
 					</div>
