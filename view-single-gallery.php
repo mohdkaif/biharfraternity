@@ -1,0 +1,69 @@
+<?php
+require('header.php');
+?>
+
+<section class="gallery-section singlepage backgroundgray">
+	<div class="container">
+		<!-- <div class="row text-center">
+			<div class="col-md-12">
+				<h2 class="tittlehead">View Single Gallery</h2>
+			</div>
+		</div> -->
+		<div class="row text-center">
+			<div class="col-md-12">
+				<?php
+				if($_REQUEST['id']==1){
+				?>
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<img src="images/gallery/biharMahotsav1.jpg" alt="gallery">
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname">Bihar Mahotsav</h2>
+								<p>Folk Dance by group of ladies, Bhojpuri Songs (Pop & Traditional) by Netherlands based International Bhojpuri singer Raj Mohan & troupe, Skit and dance performances by boys, Discussions, Display of Culture, Food and many more. Stay tuned for details. 
+								Indian Consul General of Frankfurt Ms Pratibha Parkar is the Chief Guest. Guest of Honor shall be first Indian Latin actor Mr Prabhakar Sharan.
+								Special guests include Indian German actor Mr Prashant Prabhakar (Jaiswal), Bravo Pharma CMD Mr Rakesh Pandey and Trivago guy Mr Abhinav Kumar.</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<?php
+				}elseif($_REQUEST['id']==2){
+				?>
+				
+				
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<img src="images/gallery/gallery2.png" alt="gallery">
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname">Bihar Fraternity Conclave Patna</h2>
+								<p>सोलह नवंबर (16.11.2018) की शाम पाँच बजे से भारतीय नृत्य कला मंदिर, पटना में “Bihar Fraternity Conclave 2018” कार्यक्रम में बिहार के विकास के मुद्दों पर चर्चा और साथ ही साथ कवि सम्मेलन व लोकगीतों का आयोजन होने जा रहा है। शिक्षा-स्वास्थ्य, कला-साहित्य और राजनीति से सम्बंधित विशेषज्ञ और अपना महत्वपूर्ण योगदान दे रहे शख़्सियतों के साथ परिचर्चा। 
+									इसके अलावा कवि सम्मेलन जिसमें मशहूर हास्य कवियों की टोली शम्भू शिखर, चिराग़ जैन, रमेश मुस्कान व स्वाति ख़ुशबू अपनी प्रस्तुतियों से लोगों को लोटपोट करने वाले हैं। साथ ही बिहार के उभरते गायक “आलोक चौबे’ और लोक-गायिका “चंदन तिवारी” व “छाया कुमार” अपने लोकगीतों से लोगों को दिल जीतने को तैयार हैं। 
+								</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<?php
+				}
+				?>
+			</div>
+		</div>
+	</div>
+</section>
+
+<?php
+require('footer.php');
+?>

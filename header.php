@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">  
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
-     <!-- <link rel="stylesheet" type="text/css" href="css/responsive.css"> -->
+     <link rel="stylesheet" type="text/css" href="css/smartphoto.min.css">
     <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" >
     <link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css">
 
@@ -41,8 +41,13 @@
 		        	<li><a href="our-team.php">Our Team</a></li>
 		        </ul>
 		      </li>
-		      <li class="nav-item">
+		      <li class="nav-item  mobile-dropdown2">
 		        <a class="nav-link navListing" href="project.php">Projects</a>
+		        <!-- <i class="fa fa-chevron-down"></i></a> -->
+		       <!--  <ul class="dropdown mobileToggle2">
+		        	<li><a href="project_jyoti.php">Project Jyoti</a></li>
+		        	<li><a href="project_khushi.php">Project Khushi</a></li>
+		        </ul> -->
 		      </li>
 		      <li class="nav-item">
 		        <a class="nav-link navListing" href="event.php">Events</a>

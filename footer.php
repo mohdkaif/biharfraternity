@@ -85,7 +85,7 @@
 	<script src="js/jquery-min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.mixitup.js"></script>
+    <script src="js/smartphoto.min.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script type="text/javascript">
@@ -162,6 +162,10 @@
         $('#our_team').on('mouseover',function(){
             owl.trigger('stop.owl.autoplay')
         })
+        window.addEventListener('load',function(){
+          new smartPhoto(".js-smartPhoto");
+        });
+
 
 
             /*----------------------Our team---------------------------*/ 
@@ -188,6 +192,17 @@
             $(".mobile-dropdown1").click(function(){
                 $(".mobileToggle1").toggle();
             });
+            $(".mobile-dropdown2").click(function(){
+                $(".mobileToggle2").toggle();
+            });
+            // $(".redd").click(function(){
+            //   if($id==3){
+            //     window.location.href="view-single-testimonial.php?id=3";
+
+            //   }
+            // });
+
+
     });
     </script>
 </body>
