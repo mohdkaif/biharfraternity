@@ -1,196 +1,111 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta content="" name="description"/>
-    <meta content="" name="author"/>
-    <meta charset="utf-8"/>
-    <title>Bihar</title>
-    <link rel="icon" type="image/png" href="images/logo.png">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap.min.css">  
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-     <!-- <link rel="stylesheet" type="text/css" href="css/responsive.css"> -->
-    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css" >
-    <link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css">
-
-</head>
-<body>
-
-<header class="scrolling-navbar">
-		<div class="container-fluid">
-		<div class="headertop">
-			<a href="mailto:connect@biharfraternity.org"><i class="fa fa-envelope" style="margin-right: 4px;color:#fff;font-size: 13px;"></i>connect@biharfraternity.org</a>
+<?php
+require('header.php');
+?>
+<section class="places-section singlepage backgroundgray">
+	<div class="container">
+		<div class="row text-center">
+			<div class="col-md-12">
+				<h2 class="places-head">Awesome Recipes to water your mouth in Bihar</h2>
+			</div>
 		</div>
-		<nav class="navbar navbar-expand-md bg-defualt navbarListingtop">
-		  <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="width: 100px;"></a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-		    <span class="navbar-toggler-icon navBarr">
-		    	<i class="fa fa-bars"></i>
-		    </span>
-		  </button>
-		  <div class="collapse navbar-collapse navbarright" id="collapsibleNavbar">
-		     <ul class="navbar-nav">
-		      <li class="nav-item mobile-dropdown">
-		        <a class="nav-link navListing" href="about.html">About
-		        <i class="fa fa-chevron-down"></i></a>
-		        <ul class="dropdown mobileToggle">
-		        	<li><a href="our-team.html">Our Team</a></li>
-		        </ul>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link navListing" href="project.html">Projects</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link navListing" href="event.html">Events</a>
-		      </li>
-		       <li class="nav-item">
-		        <a class="nav-link navListing" href="gallery.html">Gallery</a>
-		      </li>
-		       <li class="nav-item mobile-dropdown1">
-		        <a class="nav-link navListing" href="javascript:void(0);">Know Bihar<i class="fa fa-chevron-down"></i></a>
-		        <ul class="dropdown mobileToggle1">
-		        	<li><a href="place.html">Places</a></li>
-		        	<li><a href="food.html">Food</a></li>
-		        	<li><a href="festival.html">Festivals</a></li>
-		        	<li><a href="art.html">Art</a></li>
-		        	<li><a href="people.html">People</a></li>
-		        </ul>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link navListing" href="testimonial.html">Testimonials</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link navListing" href="contact.html">Contact us</a>
-		      </li>    
-		    </ul>
-		  </div>  
-
-		</nav>
-		</div>
-</header>
-<section class="team-section our_team_page">
-		<div class="container">
-			<div class="aboutView"><span>coming soon</span></div>
-		</div>
-</section>
-<footer class="footer">
-		<div class="bg-footer footerSection border-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4">
-						<div class="footer-links">
-							<h3>Helpful Links</h3>
-							<div>
-								<ul class="links-footer">
-									<li><a href="about.html">About Us</a></li>
-									<li><a href="impressum.html">Impressum</a></li>
-									<li><a href="datenschutz.html">Datenschutz</a></li>
-								</ul>
+		<div class="row m-t-10">
+			<div class="col-md-12">
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<a class="fancybox" rel="fancybox-thumb" href="images/food/litti-chokha.jpg">
+									<img src="images/food/litti-chokha.jpg" alt="food">
+									<div class="overlay">
+										<div class="view-gallery">
+											<i class="fa fa-eye"></i>
+										</div>
+									</div>
+								</a>
 							</div>
-							<h3>Social Links</h3>
-							<ul class="Sociallinks">
-								<li><a href="https://www.facebook.com/BiharFraternity"><i class="fa fa-facebook"></i></a></li>
-								<li><a href=" https://www.instagram.com/biharfraternity"><i class="fa fa-instagram"></i></a></li>
-								<li><a href="https://www.linkedin.com/company/biharfraternity"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href=" https://twitter.com/BiharFraternity"><i class="fa fa-twitter"></i></a></li>
-								<li><a href=" https://www.youtube.com/channel/UCt_z3Eg-ZyRtUHGJ-IYFigA"><i class="fa fa-youtube"></i></a></li>
-							</ul>
 						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="footer-links">
-							<h3>Contact US</h3>
-							<ul class="links-footer contactlinks">
-								<li class="clearfix">
-									<i class="fa fa-map-marker fontaddress float-left" style="font-size: 22px;"></i>
-									<div class="float-left" style="padding-right: 8px;padding-bottom: 10px;">Hemingstedter Weg<br> 10,22607 Hamburg</div></li>
-								<li class="clearfix">
-									<i class="fa fa-envelope fontaddress float-left"></i>
-									<a href="mailto:connect@biharfraternity.org" class="float-left">connect@biharfraternity.org</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="footer-links">
-							<h3>Suggestions ?</h3>
-							<div>
-								<form>
-									<div class="row">
-										<div class="col-md-12">
-											<div class="form-group">
-												<input type="text" name="" class="form-control" placeholder="Name">
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-12">
-											<div class="form-group">
-												<input type="text" name="" class="form-control" placeholder="Email">
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-12">
-											<div class="form-group">
-												<textarea type="text" class="form-control" >Message</textarea>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-12">
-											<div class="g-recaptcha" data-sitekey="6LfWYKMUAAAAACa2Pa_SPI5dmfjJs889J_IRwsO8"></div>
-											<button class="btn-btn-blue">Submit</button>
-										</div>
-									</div>
-								</form>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname">Litti Chokha</h2>
+								<p>The lip-smacking taste of <strong>Litti Chokha</strong>, savoured by one and all, needs no introduction. It is your grand welcome to the food of Bihar, in all its ghee-dripping glory. It consists of wheat and sattu with spices, kneaded into round spicy balls, dipped in ghee. The texture of Litti along with the crunchy crust makes it a foodie’s delight. <strong>Chokha</strong> is prepared by mashing boiled vegetables (most common being potatoes, brinjal, tomatoes), adding spices and chopped onion, garlic etc and served with Litti as a complimentary delicacy.</p>
+
+								<p>Sattu or fried gram flour forms a distinctive element of <strong>Bihari food and cuisine.</strong> The sattu is mixed with spices and filled in wheat dough balls, rolled and cooked with ghee on a hot plate to form sattu paratha which is also called <em>makuni.</em></p>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<a href="images/food/Motichoor_ladoo.jpg" class="fancybox"  rel="fancybox-thumb">
+									<img src="images/food/Motichoor_ladoo.jpg" alt="food">
+									<div class="overlay">
+										<div class="view-gallery">
+											<i class="fa fa-eye"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname">Ladoo</h2>
+								<p>The famous Hanuman Mandir near Patna Railway Station is equally famous for its Prasad, “Naivedyam”. Original roots of <strong>Naivedyam</strong> can be traced back to Tirupati Balaji Temple of Andhra Pradesh. It contains besan or gram flour, sugar, cashew, raisin, Green cardamoms, Kashmiri-saffron and other flavorings, cooked in ghee and molded into a ball shape.  It is a unique Prasad, exclusive to Hanuman Mandir. The divine delicacy melts in your mouth leaving you ecstatically content.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<a href="images/food/Chandrakala_sweet.jpg" class="fancybox"  rel="fancybox-thumb">
+									<img src="images/food/Chandrakala_sweet.jpg" alt="food">
+									<div class="overlay">
+										<div class="view-gallery">
+											<i class="fa fa-eye"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname">Chandrakala/ Pedakiya</h2>
+								<p>Very similar to Gujia, Chandrakala is another heavenly dessert for those with a sweet tooth. Stuffed with sweetened khoya, coconut, cardamom powder and dry fruits in a crispy covering and dipped in sugar-syrup, Chandrakala is a fdish from the traditional food of Bihar that is enough to sweeten your senses!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<a href="images/food/Pindi_Chana.jpg" class="fancybox"  rel="fancybox-thumb">
+									<img src="images/food/Pindi_Chana.jpg" alt="food">
+									<div class="overlay">
+										<div class="view-gallery">
+											<i class="fa fa-eye"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname"> Chana Ghugni</h2>
+								<p><strong>Chana Ghughni</strong> is a spicy-tangy evening snack item from the food of Bihar. Extremely common yet equally delicious, this mouth-watering snack is prepared in almost every household of Bihar. Boiled chickpeas, fried with onion and spices along with <strong> “Chuda ka bhuja” </strong> (flattened rice) makes it a perfect  answer to satisfy your hunger! Flattened and dried gram is also used to make other salty snacks.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>	
+				
 			</div>
 		</div>
-		<div class="bg-black">
-			<div class="text-center copyright_footer">
-		     <p>Designed & Developed by <a href="https://www.igniterpro.com/" target="_blank">Igniterpro</a></p>
-		  </div>
-		</div>
-</footer>
-<script src="js/jquery-min.js"></script>
- <script src="js/popper.min.js"></script>
- <script src="js/bootstrap.min.js"></script>
- <script src="js/jquery.mixitup.js"></script>
- <script src="js/owl.carousel.js"></script>
- <script src='https://www.google.com/recaptcha/api.js'></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$(window).on('scroll', function() {
-	        if ($(window).scrollTop() > 150) {
-	            $('.scrolling-navbar').addClass('top-nav-collapse');
-	        } else {
-	            $('.scrolling-navbar').removeClass('top-nav-collapse');
-	        }
-		});
-
-		/*-------mobile toggle------------*/
-		$(".mobile-dropdown").click(function(){
-			$(".mobileToggle").toggle();
-
-		});
-		$(".mobile-dropdown1").click(function(){
-			$(".mobileToggle").hide();
-		});
-		$(".mobile-dropdown").click(function(){
-			$(".mobileToggle1").hide();
-		});
-		$(".mobile-dropdown1").click(function(){
-			$(".mobileToggle1").toggle();
-		});
-	});
-</script>
-</body>
-</html>
+	</div>
+</section>
+<?php
+require('footer.php');
+?>

@@ -45,52 +45,6 @@ require('header.php');
 					<div class="col-md-12 border-all">
 						<div class="row item-team">
 							<div class="col-md-3 teamimg">
-								<img src="images/team3.png" alt="team">
-								<div class="overlay">
-									<h3>Varun Kumar</h3>
-								</div>
-							</div>
-							<div class="col-md-9 team-desc">
-								<h3>Varun Kumar</h3>
-								<h4>Executive Member</h4>
-								<p>Mr Varun Kumar is basically from Madhubani district of Bihar and done his primary education in Bokaro steel city. He holds a Bachelor in Engineering from VTU Karnataka and has twelve years of experience in Aerospace domain. Currently working for the client Airbus Germany. He deeply believes in the power of collective action and movements as agents of social change.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-12 border-all">
-						<div class="row item-team">
-							<div class="col-md-3 teamimg">
-								<img src="images/team4.jpeg" alt="team">
-								<div class="overlay">
-									<h3>Kumar Rahul</h3>
-								</div>
-							</div>
-							<div class="col-md-9 team-desc">
-								<h3>Kumar Rahul</h3>
-								<h4>Executive Member</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-12 border-all">	
-						<div class="row item-team">
-
-							<div class="col-md-3 teamimg">
-								<img src="images/team6.png" alt="team">
-								<div class="overlay">
-									<h3>Satyesh Shivam</h3>
-								</div>
-							</div>
-							<div class="col-md-9 team-desc">
-								<h3>Satyesh Shivam</h3>
-								<h4>Executive Member</h4>
-								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-12 border-all">
-						<div class="row item-team">
-							<div class="col-md-3 teamimg">
 								<img src="images/team7.jpg" alt="team">
 								<div class="overlay">
 									<h3>Ravi Baranwal</h3>
@@ -100,6 +54,37 @@ require('header.php');
 								<h3>Ravi Baranwal</h3>
 								<h4>Treasurer</h4>
 								<p>Hailing from Patna, Mr Ravi Baranwal believes in expanding the soft power of Bihar's culture and heritage. He is an avid reader and lover of Music and world Cinema. Based in Frankfurt, he currently works as Senior Consultant at Deutsche Boerse (German Stock Exchange). He has 7+ years of experience with largest financial institutions. He holds a B.Tech. from BIT Sindri and MBA in Finance from SJMSOM, IIT Bombay.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 border-all">
+						<div class="row item-team">
+							<div class="col-md-3 teamimg">
+								<img src="images/team.png" alt="team">
+								<div class="overlay">
+									<h3>Sudhanshu Shekhar</h3>
+								</div>
+							</div>
+							<div class="col-md-9 team-desc">
+								<h3>Sudhanshu Shekhar</h3>
+								<h4>Executive Member</h4>
+								<p>Born in Darbhanga district of Bihar in 1985, Mr Sudhanshu Shekhar was brought-up in Litchi Capital Muzaffarpur. After completing Bachelor of Engineering from MVIT Bangalore, worked as Software Engineer for CTS in Pune and London. He is currently working in PayPal Deutschland GmbH at Berlin. A strong believer of working for the society, has been contributing heavily towards it.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-12 border-all">
+						<div class="row item-team">
+							<div class="col-md-3 teamimg">
+								<img src="images/team3.png" alt="team">
+								<div class="overlay">
+									<h3>Varun Kumar</h3>
+								</div>
+							</div>
+							<div class="col-md-9 team-desc">
+								<h3>Varun Kumar</h3>
+								<h4>Executive Member</h4>
+								<p>Mr Varun Kumar is basically from Madhubani district of Bihar and done his primary education in Bokaro steel city. He holds a Bachelor in Engineering from VTU Karnataka and has twelve years of experience in Aerospace domain. Currently working for the client Airbus Germany. He deeply believes in the power of collective action and movements as agents of social change.</p>
 							</div>
 						</div>
 					</div>
@@ -121,19 +106,34 @@ require('header.php');
 					<div class="col-md-12 border-all">
 						<div class="row item-team">
 							<div class="col-md-3 teamimg">
-								<img src="images/team.png" alt="team">
+								<img src="images/team4.jpeg" alt="team">
 								<div class="overlay">
-									<h3>Sudhanshu Shekhar</h3>
+									<h3>Kumar Rahul</h3>
 								</div>
 							</div>
 							<div class="col-md-9 team-desc">
-								<h3>Sudhanshu Shekhar</h3>
+								<h3>Kumar Rahul</h3>
 								<h4>Executive Member</h4>
-								<p>Born in Darbhanga district of Bihar in 1985, Mr Sudhanshu Shekhar was brought-up in Litchi Capital Muzaffarpur. After completing Bachelor of Engineering from MVIT Bangalore, worked as Software Engineer for CTS in Pune and London. He is currently working in PayPal Deutschland GmbH at Berlin. A strong believer of working for the society, has been contributing heavily towards it.</p>
+								<p>Kumar Rahul traces his roots to Khagaria, Bihar and had been relocated across India during his upbringing. He graduated from National Institute of Technology, Patna with a B. Tech in Electrical Engineering followed by several years of work across metallurgy, IT and teaching. This was followed by an MBA from ESB Business School, Germany. He is currently serving as a Project Manager at trivago Gmbh. He has a great interest in the way technology complements the development of a culture and wishes to make it the basis for social change.</p>
 							</div>
 						</div>
-
 					</div>
+					<div class="col-md-12 border-all">	
+						<div class="row item-team">
+
+							<div class="col-md-3 teamimg">
+								<img src="images/team6.png" alt="team">
+								<div class="overlay">
+									<h3>Satyesh Shivam</h3>
+								</div>
+							</div>
+							<div class="col-md-9 team-desc">
+								<h3>Satyesh Shivam</h3>
+								<h4>Executive Member</h4>
+								<p>Native of Sitamarhi district of Bihar, Mr Satyesh Shivam finished his schooling from Gyan Niketan, Patna and Birla Senior Secondary School, Pilani. After completing his Bachelors in Electronics and communication Engineering in 2012, he went to pursue his Masters in Automotive SW Engineering from TU-Chemnitz. He is currently employed at Robert Bosch Gmbh as Product SW developer. He is a creative writer, mostly poems and short stories. A strong believer in collaborative development, he aims to improve the condition of Farmers and to contribute in the Agriculture sector in Bihar.</p>
+							</div>
+						</div>
+					</div>	
 				</div>
 			</div>
 		</div>

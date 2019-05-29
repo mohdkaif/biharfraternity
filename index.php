@@ -116,24 +116,7 @@ require('header.php');
 								</div>
 							</div>
 						</div>
-						<div class="item border-all">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
-										<img src="images/gallery/Projects.jpg" alt="gallery">
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
-										<h2 class="eventname">Project Jyoti</h2>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-										<!-- <div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
-										</div> -->
-									</div>
-								</div>
-							</div>
-						</div>
+						
 						<div class="item border-all m-b-30 backgroundwhite">
 							<div class="row">
 								<div class="col-md-5 col-sm-12">

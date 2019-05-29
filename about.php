@@ -38,8 +38,17 @@ require('header.php');
 							<li><img src="images/team2.png" alt="team">
 							<div class="caption"><h5>Prakash Sharma</h5></div>
 							</li>
+							<li><img src="images/team7.jpg" alt="team">
+							<div class="caption"><h5>Ravi Baranwal</h5></div>
+							</li>
+							<li><img src="images/team.png" alt="team">
+							<div class="caption"><h5>Sudhanshu Shekhar</h5></div>
+							</li>
 							<li><img src="images/team3.png" alt="team">
 							<div class="caption"><h5>Varun Kumar</h5></div>
+							</li>
+							<li><img src="images/team8.jpg" alt="team">
+							<div class="caption"><h5>Zulfaquar Ahmad Arfi</h5></div>
 							</li>
 							<li><img src="images/team4.jpeg" alt="team">
 							<div class="caption"><h5>Kumar Rahul</h5></div>
@@ -47,15 +56,8 @@ require('header.php');
 							<li><img src="images/team6.png" alt="team">
 							<div class="caption"><h5>Satyesh Shivam</h5></div>
 							</li>
-							<li><img src="images/team7.jpg" alt="team">
-							<div class="caption"><h5>Ravi Baranwal</h5></div>
-							</li>
-							<li><img src="images/team8.jpg" alt="team">
-							<div class="caption"><h5>Zulfaquar Ahmad Arfi</h5></div>
-							</li>
-							<li><img src="images/team.png" alt="team">
-							<div class="caption"><h5>Sudhanshu Shekhar</h5></div>
-							</li>
+							
+							
 						</ul>
 					</div>
 				</div>
