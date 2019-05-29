@@ -1,8 +1,6 @@
 <?php
 require('header.php');
 
-
-
 $API_key    = 'AIzaSyBxu2hOi94lllbdKW961XjUg4PACbAf8NQ';
 $channelID  = 'UCt_z3Eg-ZyRtUHGJ-IYFigA';
 $maxResults = 50;

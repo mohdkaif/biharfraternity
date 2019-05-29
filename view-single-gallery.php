@@ -16,7 +16,7 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
 							<div class="gallery-img">
-								<img src="images/gallery/gallery2.png" alt="gallery">
+								<img src="images/gallery/gallery2.jpg" alt="gallery">
 							</div>
 						</div>
 						<div class="col-md-7 col-sm-12">
