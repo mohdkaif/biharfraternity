@@ -93,7 +93,7 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-4">
 							<div class="project-img-khushi project-hover">
-								<a href="images/Independence Speech_Khagaria.jpg" class="fancybox" rel="fancybox-thumb">
+								<a href="images/Awari_Madhubani3.jpg" class="fancybox" rel="fancybox-thumb">
 									<img src="images/Awari_Madhubani3.jpg" alt="project">
 									<div class="overlay">
 										<div class="view-gallery">
@@ -105,7 +105,7 @@ require('header.php');
 						</div>
 						<div class="col-md-4">
 							<div class="project-img-khushi project-hover">
-								<a href="images/Independence Day_Khagaria.jpg" class="fancybox" rel="fancybox-thumb">
+								<a href="images/Awari_Madhubani2.jpg" class="fancybox" rel="fancybox-thumb">
 									<img src="images/Awari_Madhubani2.jpg" alt="project">
 									<div class="overlay">
 										<div class="view-gallery">
@@ -117,7 +117,7 @@ require('header.php');
 						</div>
 						<div class="col-md-4">
 							<div class="project-img-khushi project-hover">
-								<a href="images/Sheikhpura.jpg" class="fancybox" rel="fancybox-thumb">
+								<a href="images/Awari_Madhubani1.jpg" class="fancybox" rel="fancybox-thumb">
 									<img src="images/Awari_Madhubani1.jpg" alt="project">
 									<div class="overlay">
 										<div class="view-gallery">

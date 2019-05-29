@@ -3,7 +3,7 @@ require('header.php');
 
     /*$to = 'blueraaga@gmail.com';*/
     if(isset($_POST['submit'])){
-      $to = 'sadiya.igniterpro@gmail.com';
+      $to = 'blueraaga@gmail.com';
       $fullname = $_POST["fullname"];
       $email= $_POST["email"];
       $text= $_POST["message"];
