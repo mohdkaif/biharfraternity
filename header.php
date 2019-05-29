@@ -25,7 +25,7 @@
 			<a href="mailto:connect@biharfraternity.org"><i class="fa fa-envelope" style="margin-right: 4px;color:#fff;font-size: 13px;"></i>connect@biharfraternity.org</a>
 		</div> -->
 		<nav class="navbar navbar-expand-md bg-defualt navbarListingtop">
-		  <a class="navbar-brand" href="index.php"><img src="images/bihar-logo.png" style="width: 100px;"></a>
+		  <a class="navbar-brand" href="index.php"><img src="images/bihar-logo1.png" style="width: 140px;"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 		    <span class="navbar-toggler-icon navBarr">
 		    	<i class="fa fa-bars"></i>

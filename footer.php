@@ -100,7 +100,7 @@ require('header.php');
 									</div>
 									<div class="row">
 										<div class="col-md-12">
-											<div class="g-recaptcha" data-sitekey="6LfWYKMUAAAAACa2Pa_SPI5dmfjJs889J_IRwsO8"></div>
+											<div class="g-recaptcha" data-sitekey="6LcAXqMUAAAAANNJVFDw91eZkT21S7RAxG3bkqKZ"></div>
 											<button class="btn-btn-blue" id="submit" type="submit" name="submit">Submit</button>
 										</div>
 									</div>

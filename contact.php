@@ -67,7 +67,7 @@ require('header.php');
                       <div class="help-block with-errors"></div>
                     </div>
                     <div class="submit-button">
-                        <div class="g-recaptcha" data-sitekey="6LfWYKMUAAAAACa2Pa_SPI5dmfjJs889J_IRwsO8"></div>
+                        <div class="g-recaptcha" data-sitekey="6LcAXqMUAAAAANNJVFDw91eZkT21S7RAxG3bkqKZ"></div>
                       <button class="btn btn-common" id="submit" type="submit" name="submit">Send Message</button>
                       <div id="msgSubmit" class="h3 text-center hidden"></div> 
                       <div class="clearfix"></div> 
