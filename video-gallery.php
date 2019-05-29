@@ -1,19 +1,40 @@
 <?php
 require('header.php');
+
+
+
+$API_key    = 'AIzaSyBxu2hOi94lllbdKW961XjUg4PACbAf8NQ';
+$channelID  = 'UCt_z3Eg-ZyRtUHGJ-IYFigA';
+$maxResults = 50;
+
+$videoList = json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId='.$channelID.'&maxResults='.$maxResults.'&key='.$API_key.''));
 ?>
-
-<section class="team-section video-gallery-section backgroundgray">
-	<div class="container">
-		<div class="col-md-12 text-center">
-			<h2 class="tittlehead">Our Video Gallery</h2>
-		</div>
-		<div class="col-md-12 m-t-20" style="padding:0;">
-			<iframe src='https://www.sociablekit.com/app/embed/index.php?embed_id=24357' frameborder='0' width='100%' height='1000'></iframe>	
-		</div>
-	</div>
+<section class="video-gallery singlepage backgroundgray">
+<div class="container">
+	<div class="row">
+		
+			<?php
+        /////print_r($videoList);die();
+        foreach($videoList->items as $item){
+        	?>
+               
+        	<div class="col-md-4 videoList">
+	        	<?php	
+	            if(isset($item->id->videoId)){
+	                    echo '<div id="'. $item->id->videoId .'" class="agileits_portfolio_grid" style="margin-top:25px!important">
+	                            <iframe  height="190" src="https://www.youtube.com/embed/'.$item->id->videoId.'" frameborder="0" allowfullscreen></iframe>
+	                           <h5>'. $item->snippet->title .'</h5>
+	                        </div>';
+	            }
+	            ?>
+            </div>
+        <?php	
+        }  
+        ?>
+        </div>
+    </div>
+</div>
 </section>
-
-
-<?php
+<?php                             
 require('footer.php');
 ?>

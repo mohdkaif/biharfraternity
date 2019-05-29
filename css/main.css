@@ -261,7 +261,23 @@ ul.about-gallery li {
     transform: translate(-50%,-50%);
 }
 /*---------------------End gallery-----------------------------*/
+/*---------------------start video gallery-----------------------------*/
+.divflex>div {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.divflex {
+    display: flex;
+}
+.col-md-4.videoList iframe {
+    width: 100%;
+}
+.video-gallery{
+  margin-bottom: 20px;
+}
+/*---------------------End video gallery-----------------------------*/
 /*---------------------start our team-----------------------------*/
 .team-section{
   padding: 20px 0 15px;

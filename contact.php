@@ -1,24 +1,57 @@
 <?php
 require('header.php');
+
+    /*$to = 'blueraaga@gmail.com';*/
+    if(isset($_POST['submit'])){
+      $to = 'sadiya.igniterpro@gmail.com';
+      $fullname = $_POST["fullname"];
+      $email= $_POST["email"];
+      $text= $_POST["message"];
+      
+
+
+      $headers = 'MIME-Version: 1.0' . "\r\n";
+      $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
+      $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+      $message ='<table style="width:100%">
+          <tr>
+              <td>'.$fullname.'</td>
+          </tr>
+          <tr><td>Email: '.$email.'</td></tr>
+          <tr><td>Text: '.$text.'</td></tr>
+          
+      </table>';
+      $res = @mail($to, "[CRYPTOINDICATOR] Contact form", $message, $headers);
+      // echo '<br><br><br><br><br><pre>'; print_r($res);die;
+      if (@mail($to, "[CRYPTOINDICATOR] Contact form", $message, $headers))
+      {
+          header("Location: http://cryptointegrator.com");
+          echo 'The message has been sent.';
+      }else{
+          echo 'failed';
+      }
+      
+    }
 ?>
 <section id="contact" class="contact-section">      
     <div class="contact-form">
       <div class="container">
-      	<div class="row text-center">
-    			<div class="col-md-12">
-    				<h2 class="tittlehead tittlehead-inner">Contact Us</h2>
-    				<p>We are reachable through email as well as post.</p>
-    			</div>
-		    </div>
+        <div class="row text-center">
+                <div class="col-md-12">
+                    <h2 class="tittlehead tittlehead-inner">Contact Us</h2>
+                    <p>We are reachable through email as well as post.</p>
+                </div>
+            </div>
         <div class="row contact-form-area wow fadeInUp" data-wow-delay="0.4s">          
           <div class="col-md-7 col-lg-7 col-sm-12">
             <div class="contact-block">
               <h2>Contact Form</h2>
-              <form id="contactForm">
+              <form id="contactForm" action="contact.php" method="POST">
                 <div class="row">
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Name" required data-error="Please enter your name">
+                      <input type="text" class="form-control" id="name" name="fullname" placeholder="Name" required data-error="Please enter your name">
                       <div class="help-block with-errors"></div>
                     </div>                                 
                   </div>
@@ -28,20 +61,14 @@ require('header.php');
                       <div class="help-block with-errors"></div>
                     </div> 
                   </div>
-                   <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" placeholder="Subject" id="msg_subject" class="form-control" required data-error="Please enter your subject">
-                      <div class="help-block with-errors"></div>
-                    </div>
-                  </div>
                   <div class="col-md-12">
                     <div class="form-group"> 
-                      <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" required></textarea>
+                      <textarea class="form-control" id="message" placeholder="Your Message" rows="5" data-error="Write your message" name="message" required></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
                     <div class="submit-button">
-                    	<div class="g-recaptcha" data-sitekey="6LfWYKMUAAAAACa2Pa_SPI5dmfjJs889J_IRwsO8"></div>
-                      <button class="btn btn-common" id="submit" type="submit">Send Message</button>
+                        <div class="g-recaptcha" data-sitekey="6LfWYKMUAAAAACa2Pa_SPI5dmfjJs889J_IRwsO8"></div>
+                      <button class="btn btn-common" id="submit" type="submit" name="submit">Send Message</button>
                       <div id="msgSubmit" class="h3 text-center hidden"></div> 
                       <div class="clearfix"></div> 
                     </div>
@@ -79,5 +106,5 @@ require('header.php');
     </div>   
   </section>
   <?php
-	require('footer.php');
+    require('footer.php');
   ?>

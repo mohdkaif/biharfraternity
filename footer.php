@@ -1,3 +1,39 @@
+<?php
+require('header.php');
+
+    /*$to = 'blueraaga@gmail.com';*/
+    if(isset($_POST['submit'])){
+      $to = 'sadiya.igniterpro@gmail.com';
+      $fullname = $_POST["fullname"];
+      $email= $_POST["email"];
+      $text= $_POST["message"];
+      
+
+
+      $headers = 'MIME-Version: 1.0' . "\r\n";
+      $headers .= "From: " . $email . "\r\n"; // Sender's E-mail
+      $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+
+      $message ='<table style="width:100%">
+          <tr>
+              <td>'.$fullname.'</td>
+          </tr>
+          <tr><td>Email: '.$email.'</td></tr>
+          <tr><td>Text: '.$text.'</td></tr>
+          
+      </table>';
+      $res = @mail($to, "[CRYPTOINDICATOR] Contact form", $message, $headers);
+      // echo '<br><br><br><br><br><pre>'; print_r($res);die;
+      if (@mail($to, "[CRYPTOINDICATOR] Contact form", $message, $headers))
+      {
+          header("Location: http://cryptointegrator.com");
+          echo 'The message has been sent.';
+      }else{
+          echo 'failed';
+      }
+      
+    }
+?>
 <footer class="footer">
 		<div class="bg-footer footerSection border-top">
 			<div class="container">
@@ -40,32 +76,32 @@
 						<div class="footer-links">
 							<h3>Suggestions ?</h3>
 							<div>
-								<form>
+								<form id="contactForm" action="footer.php" method="POST">
 									<div class="row">
 										<div class="col-md-12">
 											<div class="form-group">
-												<input type="text" name="" class="form-control" placeholder="Name">
+												<input type="text" name="fullname" class="form-control" placeholder="Name">
 											</div>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
 											<div class="form-group">
-												<input type="text" name="" class="form-control" placeholder="Email">
+												<input type="text" name="email" class="form-control" placeholder="Email">
 											</div>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
 											<div class="form-group">
-												<textarea type="text" class="form-control" >Message</textarea>
+												<textarea type="text" class="form-control" name="message">Message</textarea>
 											</div>
 										</div>
 									</div>
 									<div class="row">
 										<div class="col-md-12">
 											<div class="g-recaptcha" data-sitekey="6LfWYKMUAAAAACa2Pa_SPI5dmfjJs889J_IRwsO8"></div>
-											<button class="btn-btn-blue">Submit</button>
+											<button class="btn-btn-blue" id="submit" type="submit" name="submit">Submit</button>
 										</div>
 									</div>
 								</form>
