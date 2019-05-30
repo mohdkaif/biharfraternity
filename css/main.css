@@ -914,6 +914,12 @@ section#contact {
     height: auto;
   }
 }
+@media (max-width: 1024px){
+  a.nav-link.navListing{
+    font-size: 12px;
+    padding: 10px 8px;
+  }
+}
 @media (max-width: 991px) and (min-width: 767px){
   a.nav-link.navListing{
     font-size: 12px;
