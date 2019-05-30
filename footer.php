@@ -64,10 +64,10 @@ require('header.php');
 							<ul class="links-footer contactlinks">
 								<li class="clearfix">
 									<i class="fa fa-map-marker fontaddress float-left" style="font-size: 22px;"></i>
-									<div class="float-left" style="padding-right: 8px;padding-bottom: 10px;font-family: 'Montserrat', sans-serif;">Hemingstedter Weg<br> 10,22607 Hamburg</div></li>
+									<div class="float-left" style="padding-right: 8px;padding-bottom: 10px;font-family: 'Montserrat', sans-serif;">Hemingstedter Weg<br> 10,22607 Hamburg, Germany</div></li>
 								<li class="clearfix">
 									<i class="fa fa-envelope fontaddress float-left"></i>
-									<a href="mailto:connect@biharfraternity.org" class="float-left">biharfraternity.de@gmail.com</a>
+									<a href="mailto:connect@biharfraternity.de" class="float-left">connect@biharfraternity.de</a>
 								</li>
 							</ul>
 						</div>
@@ -197,8 +197,31 @@ require('header.php');
         })
         $('#our_team').on('mouseover',function(){
             owl.trigger('stop.owl.autoplay')
+        });
+
+        /*-----------------------Start Gallery slider------------------------------------*/
+        var owl = $('.galleryslide');
+           owl.owlCarousel({
+            loop: true,
+            nav: true,
+            items: 1,
+            margin:30,
+            dots: false,
+            autoplaySpeed: 2000,
+            autoplay:true,
+            autoplayTimeout:1000,
+            autoplayHoverPause:true,
+            
+        });
+        $('.galleryslide').on('mouseleave',function(){
+            owl.trigger('play.owl.autoplay',[2000])
         })
-       
+        $('.galleryslide').on('mouseover',function(){
+            owl.trigger('stop.owl.autoplay')
+        });
+
+         /*-----------------------End Gallery slider------------------------------------*/
+
         $(document).ready(function() {
           $(".fancybox").fancybox({
             openEffect  : 'none',

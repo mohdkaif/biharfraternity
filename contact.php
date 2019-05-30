@@ -91,7 +91,7 @@ require('header.php');
                   <div class="contact-icon">
                     <i class="fa fa-envelope"></i>
                   </div>
-                  <p><a href="mailto:biharfraternity.de@gmail.com">biharfraternity.de@gmail.com</a></p>
+                  <p><a href="mailto:connect@biharfraternity.de">connect@biharfraternity.de</a></p>
                 </div>
               </div>
             </div>

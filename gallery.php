@@ -10,18 +10,30 @@ require('header.php');
 		</div>
 		<div class="row m-t-10">
 			<div class="col-md-12">
-				<div class="item border-all m-b-30 backgroundwhite">
+				<div class="item border-all m-b-30 backgroundwhite gallerySlider">
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
-							<div class="gallery-img">
-								<a class="fancybox" rel="fancybox-thumb" href="images/gallery/gallery.png">
-									<img src="images/gallery/gallery.png" alt="gallery">
-									<div class="overlay">
-										<div class="view-gallery">
-											<i class="fa fa-eye"></i>
+							<div class="owl-carousel galleryslide" id="galleryslide">
+								<div class="gallery-img">
+									<a class="fancybox" rel="fancybox-thumb" href="images/gallery/gallery.png">
+										<img src="images/gallery/gallery.png" alt="gallery">
+										<div class="overlay">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</div>
-									</div>
-								</a>
+									</a>
+								</div>
+								<div class="gallery-img">
+									<a class="fancybox" rel="fancybox-thumb" href="images/gallery/Teej_Frankfurt.jpg">
+										<img src="images/gallery/Teej_Frankfurt.jpg" alt="gallery">
+										<div class="overlay">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
+										</div>
+									</a>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-7 col-sm-12">
@@ -34,40 +46,30 @@ require('header.php');
 						</div>
 					</div>
 				</div>
-				<div class="item border-all m-b-30 backgroundwhite">
+				<div class="item border-all m-b-30 backgroundwhite gallerySlider">
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
-							<div class="gallery-img">
-								<a href="images/gallery/Holi_Dusseldorf.jpg" class="fancybox"  rel="fancybox-thumb">
-									<img src="images/gallery/Holi_Dusseldorf.jpg" alt="gallery">
-									<div class="overlay">
-										<div class="view-gallery">
-											<i class="fa fa-eye"></i>
+							<div class="owl-carousel galleryslide" id="galleryslide">
+								<div class="gallery-img">
+									<a href="images/gallery/Holi_Dusseldorf.jpg" class="fancybox"  rel="fancybox-thumb">
+										<img src="images/gallery/Holi_Dusseldorf.jpg" alt="gallery">
+										<div class="overlay">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-7 col-sm-12">
-							<div class="gallerycontent">
-								<h2 class="eventname">Holi Celebration</h2>
-								<p>A HOLI special lunch with some wonderful people soaked in little GULAAL and music.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item border-all m-b-30 backgroundwhite">
-					<div class="row">
-						<div class="col-md-5 col-sm-12">
-							<div class="gallery-img">
-								<a href="images/gallery/Holi_Playing_Dusseldorf.jpg" class="fancybox"  rel="fancybox-thumb">
-									<img src="images/gallery/Holi_Playing_Dusseldorf.jpg" alt="gallery">
-									<div class="overlay">
-										<div class="view-gallery">
-											<i class="fa fa-eye"></i>
+									</a>
+								</div>
+								<div class="gallery-img">
+									<a href="images/gallery/Holi_Playing_Dusseldorf.jpg" class="fancybox"  rel="fancybox-thumb">
+										<img src="images/gallery/Holi_Playing_Dusseldorf.jpg" alt="gallery">
+										<div class="overlay">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</div>
-									</div>
-								</a>
+									</a>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-7 col-sm-12">
@@ -121,7 +123,7 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Project Jyoti</h2>
+								<h2 class="eventname">Project Jyoti, Madhubani</h2>
 								<p></p>
 								
 							</div>
@@ -144,7 +146,7 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Bihar Diwas Berlin Group</h2>
+								<h2 class="eventname">Bihar Diwas 2018, Berlin</h2>
 								<p>
 									<ul>
 										<li>Grand official launch of our very own global forum “Bihar Fraternity</li>
@@ -160,18 +162,40 @@ require('header.php');
 						</div>
 					</div>
 				</div>
-				<div class="item border-all m-b-30 backgroundwhite">
+				<div class="item border-all m-b-30 backgroundwhite gallerySlider">
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
-							<div class="gallery-img">
-								<a class="fancybox" rel="fancybox-thumb" href="images/gallery/teatalk.jpg">
-									<img src="images/gallery/teatalk.jpg" alt="gallery">
-									<div class="overlay">
-										<div class="view-gallery">
-											<i class="fa fa-eye"></i>
+							<div class="owl-carousel galleryslide" id="galleryslide">
+								<div class="gallery-img">
+									<a class="fancybox" rel="fancybox-thumb" href="images/gallery/teatalk.jpg">
+										<img src="images/gallery/teatalk.jpg" alt="gallery">
+										<div class="overlay">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</div>
-									</div>
-								</a>
+									</a>
+								</div>
+								<div class="gallery-img">
+									<a class="fancybox" rel="fancybox-thumb" href="images/gallery/Tea Talk_Patna_1.jpg">
+										<img src="images/gallery/Tea Talk_Patna_1.jpg" alt="gallery">
+										<div class="overlay">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="gallery-img">
+									<a class="fancybox" rel="fancybox-thumb" href="images/gallery/Tea Talk_Patna_2.jpg">
+										<img src="images/gallery/Tea Talk_Patna_2.jpg" alt="gallery">
+										<div class="overlay">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
+										</div>
+									</a>
+								</div>
 							</div>
 						</div>
 						<div class="col-md-7 col-sm-12">

@@ -7,7 +7,7 @@
     <meta content="" name="description"/>
     <meta content="" name="author"/>
     <meta charset="utf-8"/>
-    <title>Bihar</title>
+    <title>Bihar Fraternity - Renaissance To Cherish</title>
     <link rel="icon" type="image/png" href="images/logo.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
 			<a href="mailto:connect@biharfraternity.org"><i class="fa fa-envelope" style="margin-right: 4px;color:#fff;font-size: 13px;"></i>connect@biharfraternity.org</a>
 		</div> -->
 		<nav class="navbar navbar-expand-md bg-defualt navbarListingtop">
-		  <a class="navbar-brand" href="index.php"><img src="images/bihar-logo1.png" style="width: 140px;"></a>
+		  <a class="navbar-brand" href="index.php"><img src="images/bihar-logo1.png" style="width: 100px;"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 		    <span class="navbar-toggler-icon navBarr">
 		    	<i class="fa fa-bars"></i>
@@ -58,6 +58,7 @@
 		       <li class="nav-item mobile-dropdown1">
 		        <a class="nav-link navListing" href="javascript:void(0);">Know Bihar<i class="fa fa-chevron-down"></i></a>
 		        <ul class="dropdown mobileToggle1">
+		        	<li><a href="fact.php">Facts</a></li>
 		        	<li><a href="place.php">Places</a></li>
 		        	<li><a href="food.php">Food</a></li>
 		        	<li><a href="festival.php">Festivals</a></li>
@@ -66,8 +67,12 @@
 		        </ul>
 		      </li>
 		      <li class="nav-item">
+		        <a class="nav-link navListing" href="press.php">Press</a>
+		      </li>
+		      <li class="nav-item">
 		        <a class="nav-link navListing" href="testimonial.php">Testimonials</a>
 		      </li>
+
 		      <li class="nav-item">
 		        <a class="nav-link navListing" href="contact.php">Contact us</a>
 		      </li>    

@@ -27,7 +27,11 @@ require('header.php');
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
 								<h2 class="eventname">Chatth Puja</h2>
-								<p>This is probably the most famous festival of this State. When one hears Chatth Puja, Bihar instantly comes to the mind. This is an actually an ancient Hindu festival which is dedicated to the Sun God, Surya, and take place 6 days after Diwali. It is an expression of thanks giving and seeking blessings from the Almighty for sustaining life on Earth. During this festival, the person observing Chatth, also known as Parvati, observes a fast from dawn to dusk which concludes with sweets. This fast is followed by another fast for 36 hours till the final day, when puja starts at the river, before sunrise. You can witness thousands of devotees and the river during this time. Witnessing Chatth Puja will let you witness the devotion in its true sense</p>
+								<p>This is probably the most famous festival of this State. When one hears Chatth Puja, Bihar instantly comes to the mind. This is an actually an ancient Hindu festival which is dedicated to the Sun God, Surya, and take place 6 days after Diwali. It is an expression of thanks giving and seeking blessings from the Almighty for sustaining life on Earth. During this festival, the person observing Chatth, also known as Parvati, observes a fast from dawn to dusk which concludes with sweets. This fast is followed by another fast for 36 hours till the final day, when puja...</p>
+								<div class="float-right text-color">
+									<a href="view-festival.php?id=1">Read More</a>
+								</div>
+							</div>
 							</div>
 						</div>
 					</div>
@@ -48,8 +52,9 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Shravani Mela</h2>
-								<p>This festival or rather Mela is observed every during the month of Shravan (July-August). It is an important month-long ritual which is held along a 108 km long route linking towns of Deogarh and Sultanganj. The devotees who take part, known as Kanwarias, wear saffron-coloured clothes and collect water from the sacred Ghats at Sultanganj. They then walk barefoot on the 108 km long stretch to Deogarh to bathe the sacred Shiva-linga. This festival draws thousands of people from all around the country every year.</p>
+								<h2 class="eventname">Hartalika Teej</h2>
+								<p>Hartalika Teej – a festival dedicated to Maa Hartalika is a fasting observed by Hindu women. Hartalika Teej falls on the third day of the first fortnight of the month of ‘Bhadra’.
+								The festival is celebrated to commemorate the acceptance of Parvati’s love towards him by Lord Shiva. Women celebrate Hartalika Teej to seek divine blessings from Lord Shiva and Goddess Parvati. Unmarried women also observe the ritual in anticipation of a happy married life.
 							</div>
 						</div>
 					</div>
@@ -58,8 +63,8 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
 							<div class="gallery-img">
-								<a href="images/festival/Sonepur-Cattle-Fair.jpeg" class="fancybox"  rel="fancybox-thumb">
-									<img src="images/festival/Sonepur-Cattle-Fair.jpeg" alt="festival">
+								<a href="images/festival/jivit.jpg" class="fancybox"  rel="fancybox-thumb">
+									<img src="images/festival/jivit.jpg" alt="festival">
 									<div class="overlay">
 										<div class="view-gallery">
 											<i class="fa fa-eye"></i>
@@ -70,8 +75,12 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Sonepur Cattle Fair</h2>
-								<p>This fair of Bihar has its root in ancient mythology and folklore. The Sonepur Cattle fair is the Asia’s largest cattle fair which takes place in the town of Sonepur in Bihar. It is held on Kartik Purnima that is the first full moon after the festival of Diwali. In this fair, domestic cattle like an elephant, camel, sheep and birds are brought in from around the country and sold here. Apart from this, varied handicrafts and handloom stalls are also put up, along with the magic show and folk dances. This fair attracts a large number of foreign tourists each year.</p>
+								<h2 class="eventname">Jivitputrika</h2>
+								<p>A three-day long festival is celebrated from the seventh to the ninth lunar day of Krishna Paksha in Ashwin month of Hindu Bikram Sambat that falls generally in September. The first day, the day before Jivitputrika is known as Nahai-khai. On that day, mothers take food only after having their bath. On Jivitputrika day, a strict fast, called Khur Jitiya, is observed without water. On the third day, the fast ends with Paaran, taking the first food of the day. In Mithila , Tharuhat, the region of northeastern Bihar, and eastern Nepal, a variety of food and a special festival delicacy Jhor... </p>
+								<div class="float-right text-color">
+									<a href="view-festival.php?id=2">Read More</a>
+								</div>
+							</div>
 							</div>
 						</div>
 					</div>

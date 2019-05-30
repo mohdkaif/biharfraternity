@@ -66,7 +66,7 @@ a.nav-link.navListing:hover{
 ul.dropdown {
     list-style-type: none;
     display: none; 
-    top: 60px;
+    top: 50px;
     word-break: break-all;
     border: 1px solid #ddd;
     /*box-shadow: 2px 2px 3px #4e4b4b;*/
@@ -369,7 +369,7 @@ ul.about-gallery li {
   bottom: 0;
 }
 .our_team_page{
-  margin-top: 76px;
+  margin-top: 66px;
 }
 .our_team_page .tittlehead{
   margin-bottom: 0;
@@ -399,6 +399,85 @@ ul.about-gallery li {
   width: 420px;
   height: 313px;
 }
+/*---------------------start facts-----------------------------*/
+/*---------------------start press-----------------------------*/
+.outer-wrap img{
+  height: 210px;
+  width: 100%;
+}
+.outer-wrap .float-right a {
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #000066;
+    border: 1px solid #000066;
+}
+.press-content h3{
+  font-size: 20px;
+  color:#000;
+}
+.press-content{
+  margin-top:4px;
+}
+.press-content p{
+  color:#000;
+}
+.outer-wrap {
+    padding: 15px;
+    border: 1px solid #a3a3a3;
+    border-radius: 5px;
+    background: #fff;
+    margin-bottom: 30px;
+}
+.mediaGallery{
+  padding-top: 30px;
+}
+.project-hover .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.outer-wrap:hover .overlay{
+  opacity: 1;
+}
+.outer-wrap{
+  position: relative;
+}
+.outer-wrap .overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.outer-wrap:hover .overlay{
+  opacity: 1;
+}
+.outer-wrap{
+  position: relative;
+}
+.outer-wrap .view-gallery {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 42%;
+    border-radius: 5px;
+    left: 42%;
+    background: #fff;
+}
+/*---------------------end press-----------------------------*/
 
 /*---------------------start places-----------------------------*/
 
@@ -670,7 +749,41 @@ button.btn-btn-blue {
   position: absolute;
 }
 
-
+.gallerySlider .owl-carousel .owl-nav .owl-prev:before{
+  content: "\f053";
+  font-size: 16px;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top:36px;
+  border-radius: 50%;
+  transition: .3s ease-in;
+  text-align: center;
+  color: #fff;
+  line-height: 28px;
+  left: -73px;
+  background-color: #39a5d4;
+  border: 2px solid #39a5d4;
+  font-family: fontAwesome;
+}
+.gallerySlider .owl-carousel .owl-nav .owl-next:before{
+  content: "\f054";
+  font-size: 16px;
+  padding-left: 2px;
+  position: absolute;
+  top:36px;
+  line-height: 28px;
+  right: 10px;
+  color: #fff;
+  transition: .3s ease-in;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: #39a5d4;
+  border: 2px solid #39a5d4;
+  font-family: fontAwesome;
+}
 .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav{
   top: -33px;
   right:0;
@@ -814,9 +927,7 @@ section#contact {
   li.nav-item {
       position: relative;
   }
-  .our_team_page .tittlehead{
-    margin-top:20px;
-  }
+
   ul.dropdown{
     top: 35px;
     box-shadow: 1px 1px 3px #4e4b4b;
@@ -885,7 +996,7 @@ section#contact {
     margin-bottom: 2px;
   }
   .team-section{
-    padding: 0px 0 15px;
+    padding: 20px 0 15px;
   }
   .team-section .item{
     height: 200px;
@@ -899,10 +1010,20 @@ section#contact {
   .team-section .item-team{
     margin: 0 auto 20px;
     display: flex;
+    padding: 15px 0;
+    background: #fff;
     justify-content: center;
   }
+  .team-desc h3{
+    text-align: center;
+    font-size: 24px;
+  }
+  .team-desc h4{
+    text-align: center;
+    font-size: 20px;
+  }
   .our_team_page {
-      margin-top: 72px;
+      margin-top: 62px;
   }
   .our_team_page .m-t-20 {
       margin-top: 10px;

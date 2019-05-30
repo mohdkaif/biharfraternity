@@ -48,7 +48,7 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Nalanda</h2>
+								<h2 class="eventname">Nalanda University (Ruins & New)</h2>
 								<p>Probably the oldest university in India, Nalanda is an important site to visit in Bihar. A perfect reminisce to the time of flourishing Gupta and Pala period, Nalanda is an acclaimed tourist attraction in Bihar. It is believed that the last and most famous Jain Tirthankara, Mahavira spent 14 monsoon seasons here. Even, Buddha is said to have delivered lectures near the mango grove in Nalanda. The fame of this education centre was to an extent that Hieun Tsang, the famous Chinese traveller visited here and stayed for atleast two years here. Even, I-tsing another famous...</p>
 								<div class="float-right text-color">
 									<a href="view-places.php?id=1">Read More</a>
@@ -61,8 +61,8 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
 							<div class="gallery-img">
-								<a href="images/place/munger-temple.jpg" class="fancybox"  rel="fancybox-thumb">
-									<img src="images/place/munger-temple.jpg" alt="place">
+								<a href="images/place/27bhrMuseum2.jpg" class="fancybox"  rel="fancybox-thumb">
+									<img src="images/place/27bhrMuseum2.jpg" alt="place">
 									<div class="overlay">
 										<div class="view-gallery">
 											<i class="fa fa-eye"></i>
@@ -73,34 +73,10 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Temple at Munger</h2>
-								<p>Dubbed as the seat of Bihar School of Yoga, Munger is yet another place that is popular amongst the tourists in Bihar. The history of Munger dates back to Aryans, who called Munger the ‘Midland’ for their settlement. For yoga buffs, Munger is not an unknown name, thus we can expect a large foreign crowd thronging this place. The present day Munger is a twin city, which comprises of Munger and Jamalpur. Reckoned to be one of the oldest cities of Bihar, Munger was once the capital of Mir Kasim before it fell into the hands of British. The place has several historic relics that further add to the charm here.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item border-all m-b-30 backgroundwhite">
-					<div class="row">
-						<div class="col-md-5 col-sm-12">
-							<div class="gallery-img">
-								<a href="images/place/vaishali-bihar.jpg" class="fancybox"  rel="fancybox-thumb">
-									<img src="images/place/vaishali-bihar.jpg" alt="place">
-									<div class="overlay">
-										<div class="view-gallery">
-											<i class="fa fa-eye"></i>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-7 col-sm-12">
-							<div class="gallerycontent">
-								<h2 class="eventname">Ashoka Lion Pillar & Stuba – Vaishali</h2>
-								<p>Vaishali is an important archaeological site that was once the capital city of Licchavi rulers. Vaishali earned fame as a birthplace of last Jain Tirthankar Lord Mahavira. It is believed that Mahavira was born and brought up in 6th century BCE in Kundalagram of Republic of Vaishali. Another major event this place was a witness to was the last sermon of Buddha in 483 BCE. Vaishali was a prosperous kingdom during the time of Buddha, it is also known for its beautiful courtesan Amrapali. So, you see, one has enough to recall in Vaishali and adding to its historic... 
+								<h2 class="eventname">Bihar Museum, Patna</h2>
+								<p>The Didarganj Yakshi sculpture, which has been Patna Museum's prime attraction for a century, will be moved to the new state-of-the-art Bihar Museum on October 18.
+								The sculpture of Yakshi, meaning spirit of the earth, was excavated from the banks of the Ganga in Didarganj near Patna in 1917. 
 								</p>
-								<div class="float-right text-color">
-									<a href="view-places.php?id=2">Read More</a>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -109,8 +85,8 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
 							<div class="gallery-img">
-								<a href="images/place/patna-buddha-bihar.jpg" class="fancybox"  rel="fancybox-thumb">
-									<img src="images/place/patna-buddha-bihar.jpg" alt="place">
+								<a href="images/place/takhtshri.png" class="fancybox"  rel="fancybox-thumb">
+									<img src="images/place/takhtshri.png" alt="place">
 									<div class="overlay">
 										<div class="view-gallery">
 											<i class="fa fa-eye"></i>
@@ -121,11 +97,97 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Buddha Memorial Park</h2>
-								<p>Situated on the southern bank of Ganga, Patna is the largest city of Bihar. Better known as Patliputra in ancient India, the city is also believed to be the one of the oldest continuously inhabited cities in the world. Patna is a pilgrimage for Sikh devotees as it is reckoned to be the birthplace of last Sikh Guru, Guru Gobind Singh. The city flourished in the period of Haryanka, Nanda, Mauryan, Shunga, Gupta and Pala earned fame all across India. Today’s Patna is a developing city, which is endeavouring to match up to the modernization; malls, high-end hotels and theatres have cropped...</p>
-								<div class="float-right text-color">
-									<a href="view-places.php?id=3">Read More</a>
-								</div>
+								<h2 class="eventname">Takht Sri Harmandir Sahib Patna</h2>
+								<p>Patna city has has the unique distinction of being honoured by the holy presence of the Buddha, Guru Nanak and Guru Tegh Bahadur. Besides, it is also the birthplace of Sri Guru Gobind Singh.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<a href="images/place/barabar-cave.jpg" class="fancybox"  rel="fancybox-thumb">
+									<img src="images/place/barabar-cave.jpg" alt="place">
+									<div class="overlay">
+										<div class="view-gallery">
+											<i class="fa fa-eye"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname">Barabar Caves, Jehanabad</h2>
+								<p>The Barabar Hill Caves are the oldest surviving rock-cut caves in India, dating from the Maurya Empire (322–185 BCE), some with Ashokan inscriptions, located in the Makhdumpur region of Jehanabad district, Bihar, India, 24 km (15 mi) north of Gaya</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<a class="fancybox" rel="fancybox-thumb" href="images/place/yoga-bihar.jpg">
+									<img src="images/place/yoga-bihar.jpg" alt="place">
+									<div class="overlay">
+										<div class="view-gallery">
+											<i class="fa fa-eye"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname">Bihar School of Yoga, Munger</h2>
+								<p>This eminent centre of Bihar School of Yoga has been an object of fascination for many around the world. Just like Rishikesh, Munger also have a high fan following from international tourists. There are many Ashrams here that provide accommodation as well as training to those seeking to learn Yoga. The place guarantees to change your perspective towards life and an 180 degree turn from previous lifestyle.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<a class="fancybox" rel="fancybox-thumb" href="images/place/valmikitigerreserve.jpg">
+									<img src="images/place/valmikitigerreserve.jpg" alt="place">
+									<div class="overlay">
+										<div class="view-gallery">
+											<i class="fa fa-eye"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname">Valmiki Tiger Reserve, Champaran</h2>
+								<p>Valmiki Tiger Reserve forms the eastern most limit of the Himalayan Terai forests in India, and is the only tiger reserve of Bihar. Situated in the Gangetic Plains bio-geographic zone of the country, the forest has combination of bhabar and terai tracts.</p>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<a class="fancybox" rel="fancybox-thumb" href="images/place/sher-shah-suri-bihar.jpg">
+									<img src="images/place/sher-shah-suri-bihar.jpg" alt="place">
+									<div class="overlay">
+										<div class="view-gallery">
+											<i class="fa fa-eye"></i>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname">Sher Shah Suri Tomb, Sasaram</h2>
+								<p>Built in 1545 AD in the memory of Emperor Sher Shah Suri, this tomb is an excellent example of Indo-Islamic architecture in India. Architecturally splendid and erected at the middle of an artificial lake, this sandstone structure is worth a visit in Bihar.</p>
 							</div>
 						</div>
 					</div>
@@ -192,33 +254,8 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Jalmandir, Pawapuri</h2>
+								<h2 class="eventname">Jal Mandir, Pawapuri</h2>
 								<p>An important Jain pilgrimage, Jalmandir is situated in Pawapuri, Bihar. Jalmandir has been revered highly by Jain devotees as it is believed that it is the place where Lord Mahavira breathed his last in 500 BCE. It is reckoned to be the cremation ground for this last Tirthankara of Jain sect. The legend has it that, the demand of Lord Mahavira’s ashes was so high that a large amount of soil had to be eroded from around the funeral pyre that a pond was created here. A white marble temple was constructed and it has remained an important Jain pilgrimage in Bihar.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item border-all m-b-30 backgroundwhite">
-					<div class="row">
-						<div class="col-md-5 col-sm-12">
-							<div class="gallery-img">
-								<a class="fancybox" rel="fancybox-thumb" href="images/place/griddhakuta-peak-bihar.jpg">
-									<img src="images/place/griddhakuta-peak-bihar.jpg" alt="place">
-									<div class="overlay">
-										<div class="view-gallery">
-											<i class="fa fa-eye"></i>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-7 col-sm-12">
-							<div class="gallerycontent">
-								<h2 class="eventname">Vultures or Griddhakuta Peak</h2>
-								<p>Also known as Vulture Peak, Griddhakuta Peak is situated in Rajgir, Bihar. This peak is the most famous place to visit in Rajgir and its sits at an elevation of 400m. It is called a Vulture Peak due to its shape and frequent visit of vultures. The place hold an important position in history as it is reckoned to be the spot where Lord Buddha preached the Lotus Sutra in order to convert Mauryan King Bimbisara. It is also believed that Buddha started the second wheel of law and delivered several sermons here. The peak has a Peace Pagoda said to have been built by Buddhist...</p>
-								<div class="float-right text-color">
-									<a href="view-places.php?id=4">Read More</a>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -239,7 +276,7 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Vishwa Shanti Stupa, Rajgir</h2>
+								<h2 class="eventname">Rajgir - World Peace Pagoda, Ancient Ruins Of Mug</h2>
 								<p>Better known as the World Peace Pagoda, Vishwa Shanti Stupa proudly stand at the historic city of Rajgir. It is one of the 7 Peace Pagodas built in India and is certainly a must visit in Bihar. The pagoda was built in 1969 to spread the message of peace and non-violence. Marked by four statues of Buddha that reflects four important phases of Buddha’s life – birth, enlightenment, teaching and death, this Peace Pagoda is amongst the finest examples of Japanese architecture in India.</p>
 							</div>
 						</div>
@@ -249,8 +286,8 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
 							<div class="gallery-img">
-								<a class="fancybox" rel="fancybox-thumb" href="images/place/sher-shah-suri-bihar.jpg">
-									<img src="images/place/sher-shah-suri-bihar.jpg" alt="place">
+								<a class="fancybox" rel="fancybox-thumb" href="images/place/patandevimandir.jpg">
+									<img src="images/place/patandevimandir.jpg" alt="place">
 									<div class="overlay">
 										<div class="view-gallery">
 											<i class="fa fa-eye"></i>
@@ -261,30 +298,8 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Sher Shah Suri Tomb, Sasaram</h2>
-								<p>Built in 1545 AD in the memory of Emperor Sher Shah Suri, this tomb is an excellent example of Indo-Islamic architecture in India. Architecturally splendid and erected at the middle of an artificial lake, this sandstone structure is worth a visit in Bihar.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="item border-all m-b-30 backgroundwhite">
-					<div class="row">
-						<div class="col-md-5 col-sm-12">
-							<div class="gallery-img">
-								<a class="fancybox" rel="fancybox-thumb" href="images/place/vikramshila-ruins-bihar.jpg">
-									<img src="images/place/vikramshila-ruins-bihar.jpg" alt="place">
-									<div class="overlay">
-										<div class="view-gallery">
-											<i class="fa fa-eye"></i>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-						<div class="col-md-7 col-sm-12">
-							<div class="gallerycontent">
-								<h2 class="eventname">Vikramshila Ruins, Bhagalpur</h2>
-								<p>Reckoned to be one of the two important Buddhist learning centres in Bihar, Vikramshila was established by King Dharampala. It is believed that the king was displeased with the depleting quality of Nalanda, thus he decided to establish another better institute for learning. Vikramshila now lies in ruins but renovation work has begun now. During the excavation, Buddhist monasteries, stupas and several wall carvings have been unveiled here.</p>
+								<h2 class="eventname">Patan Devi, Patna City</h2>
+								<p>Patan Devi, also called Maa Patneshwari, is the oldest and one of the most sacred temples of Patna. It is regarded as one of the 51 Siddha Shakti Pithas in India. According to Puranic legends, the 'right thigh' of the corpse of Devi Sati had fallen here when it was chopped off by Lord Vishnu with his 'Sudarshan Chakra'. The ancient temple, originally called Maa Sarvanand Kari Patneshwari, is believed to be the abode of the goddess Durga.</p>
 							</div>
 						</div>
 					</div>
@@ -360,8 +375,8 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
 							<div class="gallery-img">
-								<a class="fancybox" rel="fancybox-thumb" href="images/place/barabar-cave-bihar.jpg">
-									<img src="images/place/barabar-cave-bihar.jpg" alt="place">
+								<a class="fancybox" rel="fancybox-thumb" href="images/place/vaishali.jpg">
+									<img src="images/place/vaishali.jpg" alt="place">
 									<div class="overlay">
 										<div class="view-gallery">
 											<i class="fa fa-eye"></i>
@@ -372,8 +387,8 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Barabar Caves, Sultanpur</h2>
-								<p>Barabar Caves claim to be the oldest rock-cut caves in India. Dating back to Mauryan Empire, these majestic caves are certainly one of the best places to see in Bihar. Situated on twin hills – Barabar and Nagarjuni, the caves are said to be used by Ajivika sect, however, many traces of Buddhist and Jain art can be found here. Barabar Hills consists of 4 caves, whereas Nagarjuni Hills have 3 caves, each of the cave are well-polished and have articulate designs and inscriptions over its walls and ceilings.</p>
+								<h2 class="eventname">Vaishali - First Republic</h2>
+								<p>Vaishali derives its name from King Vishal. Even before the advent of Buddhism and Jainism, Vaishali was the capital of the vibrant Vajji confederation, since before the birth of Mahavira (c. 599 BC), which suggests that it was perhaps the first republic in the world, similar to those later found in ancient Greece.</p>
 							</div>
 						</div>
 					</div>
@@ -383,8 +398,8 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
 							<div class="gallery-img">
-								<a class="fancybox" rel="fancybox-thumb" href="images/place/thai-monastery-bihar.jpg">
-									<img src="images/place/thai-monastery-bihar.jpg" alt="place">
+								<a class="fancybox" rel="fancybox-thumb" href="images/place/kakolat.png">
+									<img src="images/place/kakolat.png" alt="place">
 									<div class="overlay">
 										<div class="view-gallery">
 											<i class="fa fa-eye"></i>
@@ -395,9 +410,8 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Thai Monastery, Bodhgaya</h2>
-								<p>Thai Monastery is another incredible gem from the treasure chest of Bihar. Established in 1957 with the help of Thailand’s government and Indian Buddhist monks, this temple is a must-see in Bodhgaya. Made in typical architecture style of Thailand, this temple reflects the culture and traditions of Thailand.</p>
-								
+								<h2 class="eventname">Kakolat( Nawada), Waterfall</h2>
+								<p>Kakolat waterfall, situated on the Kakolat hill, located on the border of Bihar and Jharkhand, just 33 km from Nawada and 4 km from Thali Bazar(the last turn leading to Kakolat waterfall).</p>
 							</div>
 						</div>
 					</div>
@@ -406,8 +420,8 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
 							<div class="gallery-img">
-								<a class="fancybox" rel="fancybox-thumb" href="images/place/buxar-tourist-lodge-bhar.jpg">
-									<img src="images/place/buxar-tourist-lodge-bhar.jpg" alt="place">
+								<a class="fancybox" rel="fancybox-thumb" href="images/place/vikramshila.jpg">
+									<img src="images/place/vikramshila.jpg" alt="place">
 									<div class="overlay">
 										<div class="view-gallery">
 											<i class="fa fa-eye"></i>
@@ -418,9 +432,8 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Buxar Fort, Buxar</h2>
-								<p>Constructed in 1054 AD by King Rudra Deo, Buxar Fort is a reminiscent of the glorious past of Bihar. The fort is known for its architectural brilliance and the carvings on the wall. Tourists have the chance to witness a whole treasure trove of artifacts here.</p>
-								
+								<h2 class="eventname">Vikramshila University - Bhagalpur</h2>
+								<p>Vikramashila (IAST: Vikramaśīla) was one of the two most important centres of learning in India during the Pala Empire, along with Nalanda. Vikramashila was established by King Dharmapala (783 to 820) in response to a supposed decline in the quality of scholarship at Nalanda.</p>
 							</div>
 						</div>
 					</div>
@@ -429,8 +442,8 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
 							<div class="gallery-img">
-								<a class="fancybox" rel="fancybox-thumb" href="images/place/choti-dargah-bihar.jpg">
-									<img src="images/place/choti-dargah-bihar.jpg" alt="place">
+								<a class="fancybox" rel="fancybox-thumb" href="images/place/manershar.jpg">
+									<img src="images/place/manershar.jpg" alt="place">
 									<div class="overlay">
 										<div class="view-gallery">
 											<i class="fa fa-eye"></i>
@@ -441,9 +454,8 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Witness Animal Trade at Sonepur Fair, Sonepur</h2>
-								<p>Sonepur Fair has become quite famous amongst the wandering souls, who constantly are in search of something new to explore. The festival is held in the month of November and animal trade is the highlight of this event. Also known as Harihar Kshetra Mela, this fair is reckoned to be the biggest cattle fair in the world. The fair has its origin from the time of Chandragupta Maurya. Marked by several intriguing sites, this fair is an absolute delight for the travellers willing to explore the culture in India.</p>
-								
+								<h2 class="eventname">Maner Shrine - Patna</h2>
+								<p>Maner also spelled Maner or Maner Sharif, is a satellite town in Patna Metropolitan Region, in the Patna district in the Indian state of Bihar. Maner Sharif lies 24 km west of Patna the capital of Bihar on National Highway 30 (India).</p>
 							</div>
 						</div>
 					</div>
@@ -452,8 +464,8 @@ require('header.php');
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
 							<div class="gallery-img">
-								<a class="fancybox" rel="fancybox-thumb" href="images/place/yoga-bihar.jpg">
-									<img src="images/place/yoga-bihar.jpg" alt="place">
+								<a class="fancybox" rel="fancybox-thumb" href="images/place/hanumanmandir.jpg">
+									<img src="images/place/hanumanmandir.jpg" alt="place">
 									<div class="overlay">
 										<div class="view-gallery">
 											<i class="fa fa-eye"></i>
@@ -464,8 +476,8 @@ require('header.php');
 						</div>
 						<div class="col-md-7 col-sm-12">
 							<div class="gallerycontent">
-								<h2 class="eventname">Yoga at Munger, Munger</h2>
-								<p>This eminent centre of Bihar School of Yoga has been an object of fascination for many around the world. Just like Rishikesh, Munger also have a high fan following from international tourists. There are many Ashrams here that provide accommodation as well as training to those seeking to learn Yoga. The place guarantees to change your perspective towards life and an 180 degree turn from previous lifestyle.</p>
+								<h2 class="eventname">Hanuman Mandir, Patna</h2>
+								<p>Mahavir Mandir is one of the holiest Hindu temples dedicated to Lord Hanuman, located in Patna, Bihar, India. Millions of pilgrims visit the temple every year.[citation needed]. Acharya Kishore Kunal is the secretary of the Mahavir Mandir Temple Trust, Patna.</p>
 							</div>
 						</div>
 					</div>
