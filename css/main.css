@@ -931,7 +931,7 @@ section#contact {
     justify-content: center;
   }
   .gallery-img{
-    width: auto;
+    width: 100%;
     /*height: auto;*/
   }
   .footer-links input{
@@ -984,6 +984,12 @@ section#contact {
   }
   .g-recaptcha{
     width: 100%;
+  }
+  .footer-links input{
+    width: 86%;
+  }
+  .footer-links textarea{
+    width: 86%;
   }
   .gallery-content p{
     height: 60px;
@@ -1051,6 +1057,18 @@ section#contact {
   .sliderRelative img {
       height: 100%;
   }
+  .project_wrap .tittlehead{
+    padding-top: 10px;
+  }
+  .project-side-img{
+    margin: 10px 0 10px;
+  }
+  .project-img{
+    margin: 10px 0 10px;
+  }
+  .project-img-khushi{
+    margin: 10px 0 10px;
+  }
   .sliderRelative {
       height: 200px;
   }
@@ -1113,6 +1131,9 @@ section#contact {
   }
   .gallerycontent p{
     margin-bottom: 0;
+  }
+  .eventimg{
+    height: 261px;
   }
   .testimonial-section {
       padding: 15px 0 10px;

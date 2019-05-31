@@ -1,7 +1,7 @@
 <?php
 require('header.php');
 ?>
-<section class="team-section our_team_page backgroundgray">
+<section class="team-section project_wrap our_team_page backgroundgray">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
