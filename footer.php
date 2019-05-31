@@ -38,7 +38,7 @@ require('header.php');
 		<div class="bg-footer footerSection border-top">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6">
 						<div class="footer-links">
 							<h3>Helpful Links</h3>
 							<div>
@@ -58,7 +58,7 @@ require('header.php');
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6">
 						<div class="footer-links">
 							<h3>Contact US</h3>
 							<ul class="links-footer contactlinks">
@@ -72,7 +72,7 @@ require('header.php');
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6">
 						<div class="footer-links">
 							<h3>Suggestions ?</h3>
 							<div>
@@ -234,7 +234,7 @@ require('header.php');
           $('.testimonial-outer').on('mouseover',function(){
               owl.trigger('stop.owl.autoplay')
           });
-          
+
           /*----------------------Our testimonial---------------------------*/ 
 
         /*-----------------------Start Gallery slider------------------------------------*/

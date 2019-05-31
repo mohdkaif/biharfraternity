@@ -35,31 +35,7 @@ require('header.php');
                         </div>
                     </div>
                 </div>
-                <div class="item border-all m-b-30 backgroundwhite">
-                    <div class="row">
-                        <div class="col-md-5 col-sm-12">
-                            <div class="gallery-img eventimg">
-                                <a class="fancybox" rel="fancybox-thumb" href="images/gallery/gallery.png">
-                                    <img src="images/gallery/gallery.png" alt="events">
-                                    <div class="overlay">
-                                        <div class="view-gallery">
-                                            <i class="fa fa-eye"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-7 col-sm-12">
-                            <div class="gallerycontent">
-                                <h2 class="eventname">Hartalika Teej, Frankfurt </h2>
-                                <p>Hartalika Teej – a festival dedicated to Maa Hartalika is a fasting observed by Hindu women. Hartalika Teej falls on the third day of the first fortnight of the month of ‘Bhadra’.
-                                The festival is celebrated to commemorate the acceptance of Parvati’s love towards him by Lord Shiva. Women celebrate Hartalika Teej to seek divine blessings from Lord Shiva and Goddess Parvati. Unmarried women also observe the ritual in anticipation of a happy married life.</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item border-all m-b-30 backgroundwhite">
+                 <div class="item border-all m-b-30 backgroundwhite">
                     <div class="row">
                         <div class="col-md-5 col-sm-12">
                             <div class="gallery-img eventimg">
@@ -81,8 +57,29 @@ require('header.php');
                         </div>
                     </div>
                 </div>
-              
                 <div class="item border-all m-b-30 backgroundwhite">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-12">
+                            <div class="gallery-img eventimg">
+                                <a class="fancybox" rel="fancybox-thumb" href="images/gallery/republic.jpg">
+                                    <img src="images/gallery/republic.jpg" alt="event">
+                                    <div class="overlay">
+                                        <div class="view-gallery">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12">
+                            <div class="gallerycontent">
+                                <h2 class="eventname">Republic Day Celebration 2019, Khagaria</h2>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="item border-all m-b-30 backgroundwhite">
                     <div class="row">
                         <div class="col-md-5 col-sm-12">
                             <div class="gallery-img eventimg">
@@ -98,14 +95,84 @@ require('header.php');
                         </div>
                         <div class="col-md-7 col-sm-12">
                             <div class="gallerycontent">
-                                <h2 class="eventname">Bihar Fraternity Conclave Patna</h2>
+                                <h2 class="eventname">Bihar Fraternity Conclave 2018, Patna</h2>
                                 <p>सोलह नवंबर (16.11.2018) की शाम पाँच बजे से भारतीय नृत्य कला मंदिर, पटना में “Bihar Fraternity Conclave 2018” कार्यक्रम में बिहार के विकास के मुद्दों पर चर्चा और साथ ही साथ कवि सम्मेलन व लोकगीतों का आयोजन होने जा रहा है। शिक्षा-स्वास्थ्य, कला-साहित्य और राजनीति से सम्बंधित विशेषज्ञ और अपना महत्वपूर्ण योगदान दे रहे शख़्सियतों के साथ परिचर्चा। 
                                     इसके अलावा कवि सम्मेलन जिसमें मशहूर हास्य कवियों की टोली शम्भू शिखर, चिराग़ जैन, रमेश मुस्कान व स्वाति ख़ुशबू अपनी प्रस्तुतियों से लोगों को लोटपोट करने वाले हैं। साथ ही बिहार के उभरते गायक “आलोक चौबे’ और लोक-गायिका “चंदन तिवारी” व “छाया कुमार” अपने लोकगीतों से लोगों को दिल जीतने को तैयार हैं। 
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div>  
+                </div>
+                  <div class="item border-all m-b-30 backgroundwhite">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-12">
+                            <div class="gallery-img eventimg">
+                                <a class="fancybox" rel="fancybox-thumb" href="images/gallery/teatalk.jpg">
+                                    <img src="images/gallery/teatalk.jpg" alt="gallery">
+                                    <div class="overlay">
+                                        <div class="view-gallery">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12">
+                            <div class="gallerycontent">
+                                <h2 class="eventname">Tea Talk For A Better Bihar, Patna</h2>
+                                <p>A free flow interaction with motivated and positive thinking individuals on a host of topics related to Bihar. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="item border-all m-b-30 backgroundwhite">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-12">
+                            <div class="gallery-img eventimg">
+                                <a class="fancybox" rel="fancybox-thumb" href="images/gallery/gallery.png">
+                                    <img src="images/gallery/gallery.png" alt="events">
+                                    <div class="overlay">
+                                        <div class="view-gallery">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12">
+                            <div class="gallerycontent">
+                                <h2 class="eventname">Hartalika teej 2018, Frankfurt  </h2>
+                                <p>Hartalika Teej – a festival dedicated to Maa Hartalika is a fasting observed by Hindu women. Hartalika Teej falls on the third day of the first fortnight of the month of ‘Bhadra’.
+                                The festival is celebrated to commemorate the acceptance of Parvati’s love towards him by Lord Shiva. Women celebrate Hartalika Teej to seek divine blessings from Lord Shiva and Goddess Parvati. Unmarried women also observe the ritual in anticipation of a happy married life.</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                  <div class="item border-all m-b-30 backgroundwhite">
+                    <div class="row">
+                        <div class="col-md-5 col-sm-12">
+                            <div class="gallery-img eventimg">
+                                <a href="images/gallery/Independence-Day_Khagaria.png" class="fancybox"  rel="fancybox-thumb">
+                                    <img src="images/gallery/Independence-Day_Khagaria.png" alt="event">
+                                    <div class="overlay">
+                                        <div class="view-gallery">
+                                            <i class="fa fa-eye"></i>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-7 col-sm-12">
+                            <div class="gallerycontent">
+                                <h2 class="eventname">Independence Day Celebration 2018, Khagaria</h2>
+                                <p></p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
                  <div class="item border-all m-b-30 backgroundwhite">
                     <div class="row">
                         <div class="col-md-5 col-sm-12">
@@ -137,75 +204,7 @@ require('header.php');
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="item border-all m-b-30 backgroundwhite">
-                    <div class="row">
-                        <div class="col-md-5 col-sm-12">
-                            <div class="gallery-img eventimg">
-                                <a href="images/gallery/Independence-Day_Khagaria.png" class="fancybox"  rel="fancybox-thumb">
-                                    <img src="images/gallery/Independence-Day_Khagaria.png" alt="event">
-                                    <div class="overlay">
-                                        <div class="view-gallery">
-                                            <i class="fa fa-eye"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-7 col-sm-12">
-                            <div class="gallerycontent">
-                                <h2 class="eventname">Independence Day Celebration, Khagaria, Bihar</h2>
-                                <p></p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-               
-                <div class="item border-all m-b-30 backgroundwhite">
-                    <div class="row">
-                        <div class="col-md-5 col-sm-12">
-                            <div class="gallery-img eventimg">
-                                <a class="fancybox" rel="fancybox-thumb" href="images/gallery/republic.jpg">
-                                    <img src="images/gallery/republic.jpg" alt="event">
-                                    <div class="overlay">
-                                        <div class="view-gallery">
-                                            <i class="fa fa-eye"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-7 col-sm-12">
-                            <div class="gallerycontent">
-                                <h2 class="eventname">Republic Day Celebration, Khagaria, Bihar</h2>
-                                <p></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="item border-all m-b-30 backgroundwhite">
-                    <div class="row">
-                        <div class="col-md-5 col-sm-12">
-                            <div class="gallery-img eventimg">
-                                <a class="fancybox" rel="fancybox-thumb" href="images/gallery/teatalk.jpg">
-                                    <img src="images/gallery/teatalk.jpg" alt="gallery">
-                                    <div class="overlay">
-                                        <div class="view-gallery">
-                                            <i class="fa fa-eye"></i>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-7 col-sm-12">
-                            <div class="gallerycontent">
-                                <h2 class="eventname">Tea Talk, Patna</h2>
-                                <p>A free flow interaction with motivated and positive thinking individuals on a host of topics related to Bihar. </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div> 
             </div>
         </div>
     </div>

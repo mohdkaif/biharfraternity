@@ -934,16 +934,23 @@ section#contact {
     width: auto;
     /*height: auto;*/
   }
+  .footer-links input{
+    width: 100%;
+  }
+  .footer-links textarea{
+    width: 100%;
+  }
+  .testimonial-content p{
+    height: 53px;
+    overflow: hidden;
+  }
 }
 @media (max-width: 1024px){
   a.nav-link.navListing{
     font-size: 12px;
     padding: 10px 8px;
   }
-  .testimonial-content p{
-    height: 53px;
-    overflow: hidden;
-  }
+  
 }
 @media (max-width: 991px) and (min-width: 767px){
   a.nav-link.navListing{
@@ -974,6 +981,9 @@ section#contact {
 @media (max-width: 767px) {
   .navbar-toggler{
     padding-right: 3px;
+  }
+  .g-recaptcha{
+    width: 100%;
   }
   .gallery-content p{
     height: 60px;
@@ -1087,6 +1097,14 @@ section#contact {
   }
   .our_team_page .m-t-20 {
       margin-top: 10px;
+  }
+}
+@media (max-width: 576px){
+  .testimonial-content h3{
+    font-size: 19px;
+  }
+  .testimonial-content p{
+    font-size: 12px;
   }
 }
 @media (max-width: 420px){
