@@ -81,65 +81,7 @@ require('header.php');
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
 									<div class="gallery-img">
-										<img src="images/gallery/Holi_Playing_Dusseldorf.jpg" alt="gallery">
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent gallery-content">
-										<h2 class="eventname">Holi Celebration</h2>
-										<p>A HOLI special lunch with some wonderful people soaked in little GULAAL and music.</p>
-									
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item border-all">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
 										<img src="images/gallery/gallery2.jpg" alt="gallery">
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent gallery-content">
-										<h2 class="eventname">Bihar Fraternity Conclave Patna</h2>
-										<p>सोलह नवंबर (16.11.2018) की शाम पाँच बजे से भारतीय नृत्य कला मंदिर, पटना में “Bihar Fraternity Conclave 2018” कार्यक्रम में बिहार के विकास के मुद्दों पर चर्चा और साथ ही साथ कवि सम्मेलन व लोकगीतों का आयोजन होने जा रहा है। शिक्षा-स्वास्थ्य, कला-साहित्य और राजनीति से सम्बंधित विशेषज्ञ और अपना महत्वपूर्ण योगदान दे रहे शख़्सियतों के साथ परिचर्चा। 
-											इसके अलावा कवि सम्मेलन जिसमें मशहूर हास्य कवियों की टोली शम्भू शिखर, चिराग़ जैन, रमेश मुस्कान व स्वाति ख़ुशबू अपनी प्रस्तुतियों से लोगों को लोटपोट करने वाले हैं। साथ ही बिहार के उभरते गायक... 
-										</p>
-										<div class="float-right text-color">
-											<a href="view-single-gallery.php?id=2">Read More</a>
-										</div>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item border-all">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
-										<img src="images/gallery/Conclave_Kavi_Sammelan_Patna.jpg" alt="gallery">
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent gallery-content">
-										<h2 class="eventname">Bihar Fraternity Conclave Patna</h2>
-										<p>सोलह नवंबर (16.11.2018) की शाम पाँच बजे से भारतीय नृत्य कला मंदिर, पटना में “Bihar Fraternity Conclave 2018” कार्यक्रम में बिहार के विकास के मुद्दों पर चर्चा और साथ ही साथ कवि सम्मेलन व लोकगीतों का आयोजन होने जा रहा है। शिक्षा-स्वास्थ्य, कला-साहित्य और राजनीति से सम्बंधित विशेषज्ञ और अपना महत्वपूर्ण योगदान दे रहे शख़्सियतों के साथ परिचर्चा। 
-											इसके अलावा कवि सम्मेलन जिसमें मशहूर हास्य कवियों की टोली शम्भू शिखर, चिराग़ जैन, रमेश मुस्कान व स्वाति ख़ुशबू अपनी प्रस्तुतियों से लोगों को लोटपोट करने वाले हैं। साथ ही बिहार के उभरते गायक... 
-										</p>
-										<div class="float-right text-color">
-											<a href="view-single-gallery.php?id=2">Read More</a>
-										</div>
-										
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item border-all">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
-										<img src="images/gallery/conclave-patna2.jpg" alt="gallery">
 									</div>
 								</div>
 								<div class="col-md-7 col-sm-12">
@@ -269,57 +211,61 @@ require('header.php');
 					<h2 class="tittlehead">Testimonials</h2>
 				</div>
 			</div>
-			<div class="row m-t-10">
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
-					<div class="testimonial-outer border-all-side">
-						<div class="testimonialimg">
-							<img src="images/testimonial1.png" alt="Testimonials">
+				<div class="m-t-10">
+					<div class="owl-carousel testimonial" id="testimonial">
+						<div class="item ">
+							<div class="item text-center">
+								<div class="testimonial-outer border-all-side">
+									<div class="testimonialimg">
+										<img src="images/testimonial1.png" alt="Testimonials">
+									</div>
+									<div class="testimonial-content">
+										<h3>Dr. Vinita Sahay</h3>
+										<p>Great to hear from the "SON of the SOIL". I am not from Bihar , my better half is , so I'm BAHU of...</p>
+										<a class="redd" href="view-single-testimonial.php?id=1" id="testimonialone">Read More</a>
+									</div>
+								</div>
+							</div>
 						</div>
-						<div class="testimonial-content">
-							<h3>Dr. Vinita Sahay</h3>
-							<p>Great to hear from the "SON of the SOIL". I am not from Bihar , my better half is , so I'm BAHU of...</p>
-							<a class="redd" href="view-single-testimonial.php?id=1" id="testimonialone">Read More</a>
+						<div class="item text-center">
+							<div class="testimonial-outer border-all-side">
+								<div class="testimonialimg">
+									<img src="images/testimonial2.png" alt="Testimonials">
+								</div>
+								<div class="testimonial-content">
+									<h3>Dr. Kumar Vishvas</h3>
+									<p>God bless you Prakash! Positioning Bihar is just as positioning India's grace and rich history!...</p>
+									<a class="redd" href="view-single-testimonial.php?id=2" id="testimonialtwo">Read More</a>
+								</div>
+							</div>
 						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
-					<div class="testimonial-outer border-all-side">
-						<div class="testimonialimg">
-							<img src="images/testimonial2.png" alt="Testimonials">
+						<div class="item text-center">
+							<div class="testimonial-outer border-all-side">
+								<div class="testimonialimg">
+									<img src="images/testimonial3.png" alt="Testimonials">
+								</div>
+								<div class="testimonial-content">
+									<h3>Ravi Shankar Prasad</h3>
+									<p>I am immensely pleased to know that a global forum namely "Bihar Fraternity" is being launched on... </p>
+									<a class="redd" href="view-single-testimonial.php?id=3" id="testimonialthree">Read More</a>
+								</div>
+							</div>
 						</div>
-						<div class="testimonial-content">
-							<h3>Dr. Kumar Vishvas</h3>
-							<p>God bless you Prakash! Positioning Bihar is just as positioning India's grace and rich history!...</p>
-							<a class="redd" href="view-single-testimonial.php?id=2" id="testimonialtwo">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
-					<div class="testimonial-outer border-all-side">
-						<div class="testimonialimg">
-							<img src="images/testimonial3.png" alt="Testimonials">
-						</div>
-						<div class="testimonial-content">
-							<h3>Ravi Shankar Prasad</h3>
-							<p>I am immensely pleased to know that a global forum namely "Bihar Fraternity" is being launched on... </p>
-							<a class="redd" href="view-single-testimonial.php?id=3" id="testimonialthree">Read More</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
-					<div class="testimonial-outer border-all-side">
-						<div class="testimonialimg">
-							<img src="images/testimonial4.png" alt="Testimonials">
-						</div>
-						<div class="testimonial-content">
-							<h3>Peter Feldmann</h3>
-							<p>I am immensely pleased to know that a global forum namely "Bihar Fraternity" is being launched on... </p>
-							<a class="redd" href="view-single-testimonial.php?id=3" id="testimonialthree">Read More</a>
+						<div clas="item text-center">
+							<div class="testimonial-outer border-all-side">
+								<div class="testimonialimg">
+									<img src="images/testimonial4.png" alt="Testimonials">
+								</div>
+								<div class="testimonial-content text-center">
+									<h3>Peter Feldmann</h3>
+									<p>Frankfurt am Main ist eine Stadt der kulturellen Vielfalt.Menschen aus aller Welt pragen das Stadtbild.Mich freut... </p>
+									<a class="redd" href="view-single-testimonial.php?id=4" id="testimonialthree">Read More</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 	
 

@@ -70,9 +70,28 @@ require('header.php');
 					</div>
 				</div>
 				<?php	
-				}
+				}elseif($_REQUEST['id']==4){
 				?>
+				<div class="testimonial-single-view">
+					<div class="row">
+						<div class="col-md-3">
+							<div class="testimonialimg">
+								<img src="images/testimonial4.png" alt="Testimonials">
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="testimonial-content">
+							<h3>Peter Feldmann</h3>
+							<p>Frankfurt am Main ist eine Stadt der kulturellen Vielfalt.Menschen aus aller Welt pragen das Stadtbild.Mich freut es sehr,dass unsere Mainmetropole auch ein wichtiges Zentrum indischen Lebens in Deutschland ist.Das spiegelt sich zum einen wider in der Zahl der ansassigen indischen Firmen,aber vor allem in der Viehzahl aktiver Kulturvereine und Netzwerke,wie der Bihar Fraternity.
+							Fur Ihre Veransstaltung Bihar Mahotsav wunsche ich Ihnen und Ihren Gasten schone Momente,inspirierende Gesprache und viel Freude </p>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
+			<?php	
+			}
+			?>
 		</div>
 	</div>
 </section>

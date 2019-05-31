@@ -632,6 +632,16 @@ h2.places-head {
   padding: 30px 20px;
       margin-bottom: 30px;
 }
+.testimonialimg img {
+    border-radius: 50%;
+    overflow: hidden;
+}
+.testimonial-section .owl-carousel .owl-nav .owl-prev:before{
+  display: none;
+}
+.testimonial-section .owl-carousel .owl-nav .owl-next:before{
+  display: none;
+}
 .border-all-side{
   border:2px solid #c9c9c9;
 }
@@ -929,6 +939,10 @@ section#contact {
   a.nav-link.navListing{
     font-size: 12px;
     padding: 10px 8px;
+  }
+  .testimonial-content p{
+    height: 53px;
+    overflow: hidden;
   }
 }
 @media (max-width: 991px) and (min-width: 767px){

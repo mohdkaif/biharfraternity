@@ -165,7 +165,7 @@ require('header.php');
           var owl = $('#our_team');
            owl.owlCarousel({
             loop: true,
-            nav: true,
+            nav: false,
             items: 4,
             margin:30,
             dots: false,
@@ -198,27 +198,65 @@ require('header.php');
         $('#our_team').on('mouseover',function(){
             owl.trigger('stop.owl.autoplay')
         });
-
-        /*-----------------------Start Gallery slider------------------------------------*/
-        var owl = $('.galleryslide');
+/*----------------------Our testimonial---------------------------*/ 
+        var owl = $('.testimonial');
            owl.owlCarousel({
             loop: true,
             nav: true,
-            items: 1,
-            margin:30,
+            margin:10,
             dots: false,
             autoplaySpeed: 2000,
             autoplay:true,
-            autoplayTimeout:1000,
             autoplayHoverPause:true,
-            
-        });
-        $('.galleryslide').on('mouseleave',function(){
-            owl.trigger('play.owl.autoplay',[2000])
-        })
-        $('.galleryslide').on('mouseover',function(){
-            owl.trigger('stop.owl.autoplay')
-        });
+            // autoplayTimeout:500,
+            responsive: {
+              0: {
+                  items: 1
+              },
+              360: {
+                  items: 1
+              },
+              500: {
+                  items: 2
+              },
+              991: {
+                  items: 2
+              },
+              1200: {
+                  items: 3
+              }
+            }
+          });
+
+           $('.testimonial-outer').on('mouseleave',function(){
+            owl.trigger('play.owl.autoplay',[500])
+          })
+          $('.testimonial-outer').on('mouseover',function(){
+              owl.trigger('stop.owl.autoplay')
+          });
+          
+          /*----------------------Our testimonial---------------------------*/ 
+
+        /*-----------------------Start Gallery slider------------------------------------*/
+          var owl = $('.galleryslide');
+             owl.owlCarousel({
+              loop: true,
+              nav: true,
+              items: 1,
+              margin:30,
+              dots: false,
+              autoplaySpeed: 2000,
+              autoplay:true,
+              autoplayTimeout:1000,
+              autoplayHoverPause:true,
+              
+          });
+          $('.galleryslide').on('mouseleave',function(){
+              owl.trigger('play.owl.autoplay',[2000])
+          })
+          $('.galleryslide').on('mouseover',function(){
+              owl.trigger('stop.owl.autoplay')
+          });
 
          /*-----------------------End Gallery slider------------------------------------*/
 
