@@ -2,7 +2,7 @@
 require('header.php');
 ?>
 
-<section class="gallery-section singlepage backgroundgray">
+<section class="gallery-section viewSingle singlepage backgroundgray">
 	<div class="container">
 		<!-- <div class="row text-center">
 			<div class="col-md-12">
@@ -11,7 +11,28 @@ require('header.php');
 		</div> -->
 		<div class="row text-center">
 			<div class="col-md-12">
-				
+				<?php
+				if($_REQUEST['id']==1){
+				?>
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<img src="images/gallery/gallery.png" alt="gallery">
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname">Hartalika Teej Event</h2>
+								<p>Hartalika Teej – a festival dedicated to Maa Hartalika is a fasting observed by Hindu women. Hartalika Teej falls on the third day of the first fortnight of the month of ‘Bhadra’.
+								The festival is celebrated to commemorate the acceptance of Parvati’s love towards him by Lord Shiva. Women celebrate Hartalika Teej to seek divine blessings from Lord Shiva and Goddess Parvati. Unmarried women also observe the ritual in anticipation of a happy married life.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<?php
+				}elseif($_REQUEST['id']==2){
+				?>
 				<div class="item border-all m-b-30 backgroundwhite">
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
@@ -30,6 +51,35 @@ require('header.php');
 						</div>
 					</div>
 				</div>
+				<?php	
+				}elseif($_REQUEST['id']==3){
+				?>
+				<div class="item border-all m-b-30 backgroundwhite">
+					<div class="row">
+						<div class="col-md-5 col-sm-12">
+							<div class="gallery-img">
+								<img src="images/gallery/BiharDiwas_Berlin_Group.jpg" alt="gallery">
+							</div>
+						</div>
+						<div class="col-md-7 col-sm-12">
+							<div class="gallerycontent">
+								<h2 class="eventname">Bihar Diwas 2018, Berlin</h2>
+								<ul>
+									<li>Grand official launch of our very own global forum “Bihar Fraternity</li>
+									<li> Lighting of lamp-Keynote address by the President of the fraternity</li>
+									<li>Message from Indian Deputy Chief of Mission to Germany (Guest of the Honor)</li>
+									<li>Address by VP of fraternity about organization and our aims</li>
+									<li> Launch of Education welfare program “Project Jyoti</li>
+									<li>Solution centric talks on “Brand Bihar</li>
+									<li>Talk on "Role of Women in the Growth of Bihar"</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<?php	
+				}
+				?>
 			</div>
 		</div>
 	</div>

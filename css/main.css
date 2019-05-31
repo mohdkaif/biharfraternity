@@ -239,6 +239,9 @@ ul.about-gallery li {
 .gallery-img{
   position: relative;
 }
+.mobile-btn{
+    display:none;
+  }
 .fancybox:hover .view-gallery i {
   opacity: 1;
   
@@ -627,6 +630,7 @@ h2.places-head {
 }
 .testimonial-outer {
   padding: 30px 20px;
+      margin-bottom: 30px;
 }
 .border-all-side{
   border:2px solid #c9c9c9;
@@ -900,6 +904,13 @@ section#contact {
     color:#000;
     margin-bottom: 0;
 }
+.singlepage .item.border-all .row .col-md-5 {
+  align-items: center;
+  display: flex;
+}
+.gallerycontent li{
+  text-align: left;
+}
 @media (max-width: 1200px){
   .aboutSection{
     padding-top: 20px;
@@ -911,7 +922,7 @@ section#contact {
   }
   .gallery-img{
     width: auto;
-    height: auto;
+    /*height: auto;*/
   }
 }
 @media (max-width: 1024px){
@@ -925,10 +936,41 @@ section#contact {
     font-size: 12px;
     padding: 10px 7px !important;
   }
+  .gallery-content p{
+    height: 108px;
+    overflow: hidden;
+  }
+  .gallery-content ul{
+    height: 105px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 991px){
+  .gallery-content {
+     padding: 0 10px;
+     height: 112px;
+  }
+  .mobile-btn{
+    display:block;
+  }
+  .team-section{
+    padding-top:0;
+  }
 }
 @media (max-width: 767px) {
   .navbar-toggler{
     padding-right: 3px;
+  }
+  .gallery-content p{
+    height: 60px;
+    overflow: hidden;
+  }
+  .gallery-content{
+    /*height: px;*/
+  }
+  .gallery-content ul{
+    height: 50px;
+    overflow: hidden;
   }
   li.nav-item {
       position: relative;
@@ -989,7 +1031,7 @@ section#contact {
       height: 200px;
   }
   .gallery-section .border-all{
-    border:none;
+    /*border:none;*/
     padding: 0;
   }
   .gallerycontent p{
@@ -997,18 +1039,16 @@ section#contact {
     padding: 10px;
   }
   .eventname{
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 10px;
     margin-bottom: 2px;
   }
-  .team-section{
-    padding: 20px 0 15px;
-  }
+ 
   .team-section .item{
     height: 200px;
   }
   .testimonial-outer{
-    margin-bottom: 15px;
+    margin-bottom: 30px;
   }
   .testimonial-section{
     padding: 20px 0 10px;

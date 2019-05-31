@@ -50,11 +50,13 @@ require('header.php');
 									</div>
 								</div>
 								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
+									<div class="gallerycontent gallery-content">
 										<h2 class="eventname">Hartalika Teej Event</h2>
 										<p>Hartalika Teej – a festival dedicated to Maa Hartalika is a fasting observed by Hindu women. Hartalika Teej falls on the third day of the first fortnight of the month of ‘Bhadra’.
 										The festival is celebrated to commemorate the acceptance of Parvati’s love towards him by Lord Shiva. Women celebrate Hartalika Teej to seek divine blessings from Lord Shiva and Goddess Parvati. Unmarried women also observe the ritual in anticipation of a happy married life.</p>
-										
+										<div class="float-right text-color mobile-btn">
+											<a href="view-single-gallery.php?id=1">Read More</a>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -67,12 +69,10 @@ require('header.php');
 									</div>
 								</div>
 								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
+									<div class="gallerycontent gallery-content">
 										<h2 class="eventname">Holi Celebration</h2>
 										<p>A HOLI special lunch with some wonderful people soaked in little GULAAL and music.</p>
-										<!-- <div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
-										</div> -->
+										
 									</div>
 								</div>
 							</div>
@@ -85,12 +85,10 @@ require('header.php');
 									</div>
 								</div>
 								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
+									<div class="gallerycontent gallery-content">
 										<h2 class="eventname">Holi Celebration</h2>
 										<p>A HOLI special lunch with some wonderful people soaked in little GULAAL and music.</p>
-										<!-- <div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
-										</div> -->
+									
 									</div>
 								</div>
 							</div>
@@ -103,20 +101,61 @@ require('header.php');
 									</div>
 								</div>
 								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
+									<div class="gallerycontent gallery-content">
 										<h2 class="eventname">Bihar Fraternity Conclave Patna</h2>
 										<p>सोलह नवंबर (16.11.2018) की शाम पाँच बजे से भारतीय नृत्य कला मंदिर, पटना में “Bihar Fraternity Conclave 2018” कार्यक्रम में बिहार के विकास के मुद्दों पर चर्चा और साथ ही साथ कवि सम्मेलन व लोकगीतों का आयोजन होने जा रहा है। शिक्षा-स्वास्थ्य, कला-साहित्य और राजनीति से सम्बंधित विशेषज्ञ और अपना महत्वपूर्ण योगदान दे रहे शख़्सियतों के साथ परिचर्चा। 
 											इसके अलावा कवि सम्मेलन जिसमें मशहूर हास्य कवियों की टोली शम्भू शिखर, चिराग़ जैन, रमेश मुस्कान व स्वाति ख़ुशबू अपनी प्रस्तुतियों से लोगों को लोटपोट करने वाले हैं। साथ ही बिहार के उभरते गायक... 
 										</p>
 										<div class="float-right text-color">
-											<a href="view-single-gallery.php">Read More</a>
+											<a href="view-single-gallery.php?id=2">Read More</a>
 										</div>
 										
 									</div>
 								</div>
 							</div>
 						</div>
-						
+						<div class="item border-all">
+							<div class="row">
+								<div class="col-md-5 col-sm-12">
+									<div class="gallery-img">
+										<img src="images/gallery/Conclave_Kavi_Sammelan_Patna.jpg" alt="gallery">
+									</div>
+								</div>
+								<div class="col-md-7 col-sm-12">
+									<div class="gallerycontent gallery-content">
+										<h2 class="eventname">Bihar Fraternity Conclave Patna</h2>
+										<p>सोलह नवंबर (16.11.2018) की शाम पाँच बजे से भारतीय नृत्य कला मंदिर, पटना में “Bihar Fraternity Conclave 2018” कार्यक्रम में बिहार के विकास के मुद्दों पर चर्चा और साथ ही साथ कवि सम्मेलन व लोकगीतों का आयोजन होने जा रहा है। शिक्षा-स्वास्थ्य, कला-साहित्य और राजनीति से सम्बंधित विशेषज्ञ और अपना महत्वपूर्ण योगदान दे रहे शख़्सियतों के साथ परिचर्चा। 
+											इसके अलावा कवि सम्मेलन जिसमें मशहूर हास्य कवियों की टोली शम्भू शिखर, चिराग़ जैन, रमेश मुस्कान व स्वाति ख़ुशबू अपनी प्रस्तुतियों से लोगों को लोटपोट करने वाले हैं। साथ ही बिहार के उभरते गायक... 
+										</p>
+										<div class="float-right text-color">
+											<a href="view-single-gallery.php?id=2">Read More</a>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item border-all">
+							<div class="row">
+								<div class="col-md-5 col-sm-12">
+									<div class="gallery-img">
+										<img src="images/gallery/conclave-patna2.jpg" alt="gallery">
+									</div>
+								</div>
+								<div class="col-md-7 col-sm-12">
+									<div class="gallerycontent gallery-content">
+										<h2 class="eventname">Bihar Fraternity Conclave Patna</h2>
+										<p>सोलह नवंबर (16.11.2018) की शाम पाँच बजे से भारतीय नृत्य कला मंदिर, पटना में “Bihar Fraternity Conclave 2018” कार्यक्रम में बिहार के विकास के मुद्दों पर चर्चा और साथ ही साथ कवि सम्मेलन व लोकगीतों का आयोजन होने जा रहा है। शिक्षा-स्वास्थ्य, कला-साहित्य और राजनीति से सम्बंधित विशेषज्ञ और अपना महत्वपूर्ण योगदान दे रहे शख़्सियतों के साथ परिचर्चा। 
+											इसके अलावा कवि सम्मेलन जिसमें मशहूर हास्य कवियों की टोली शम्भू शिखर, चिराग़ जैन, रमेश मुस्कान व स्वाति ख़ुशबू अपनी प्रस्तुतियों से लोगों को लोटपोट करने वाले हैं। साथ ही बिहार के उभरते गायक... 
+										</p>
+										<div class="float-right text-color">
+											<a href="view-single-gallery.php?id=2">Read More</a>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
 						<div class="item border-all m-b-30 backgroundwhite">
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
@@ -125,34 +164,15 @@ require('header.php');
 									</div>
 								</div>
 								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
+									<div class="gallerycontent gallery-content">
 										<h2 class="eventname">Project Jyoti</h2>
 										<p></p>
-										<!-- <div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
-										</div> -->
+										
 									</div>
 								</div>
 							</div>
 						</div>
-						<!-- <div class="item border-all">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
-										<img src="images/gallery/Conclave_Health-Education_Patna.jpg" alt="gallery">
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
-										<h2 class="eventname">Conclave Health Education Patna</h2>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s....</p>
-										<div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div> -->
+						
 						<div class="item border-all">
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
@@ -161,9 +181,9 @@ require('header.php');
 									</div>
 								</div>
 								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
-										<h2 class="eventname">Bihar Diwas Berlin Group</h2>
-										<p>
+									<div class="gallerycontent gallery-content">
+										<h2 class="eventname">Bihar Diwas 2018, Berlin</h2>
+										
 											<ul>
 												<li>Grand official launch of our very own global forum “Bihar Fraternity</li>
 												<li> Lighting of lamp-Keynote address by the President of the fraternity</li>
@@ -173,32 +193,14 @@ require('header.php');
 												<li>Solution centric talks on “Brand Bihar</li>
 												<li>Talk on "Role of Women in the Growth of Bihar"</li>
 											</ul>
-										</p>
-										<!-- <div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
-										</div> -->
-									</div>
-								</div>
-							</div>
-						</div>
-						<!-- <div class="item border-all">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
-										<img src="images/gallery/Collage_Ladies.jpg" alt="gallery">
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
-										<h2 class="eventname">Collage Ladies</h2>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s....</p>
-										<div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
+										
+										<div class="float-right text-color mobile-btn">
+											<a href="view-single-gallery.php?id=3">Read More</a>
 										</div>
 									</div>
 								</div>
 							</div>
-						</div> -->
+						</div>
 						<div class="item border-all">
 							<div class="row">
 								<div class="col-md-5 col-sm-12">
@@ -207,52 +209,14 @@ require('header.php');
 									</div>
 								</div>
 								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
+									<div class="gallerycontent gallery-content">
 										<h2 class="eventname">Tea talk</h2>
 										<p>A free flow interaction with motivated and positive thinking individuals on a host of topics related to Bihar. </p>
-										<!-- <div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
-										</div> -->
+										
 									</div>
 								</div>
 							</div>
 						</div>
-					<!-- 	<div class="item border-all">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
-										<img src="images/gallery/Litti_Par_Charcha_Patna.jpg" alt="gallery">
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
-										<h2 class="eventname">Litti Par Charcha Patna</h2>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s....</p>
-										<div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div> -->
-						<!-- <div class="item border-all">
-							<div class="row">
-								<div class="col-md-5 col-sm-12">
-									<div class="gallery-img">
-										<img src="images/gallery/RJShashi.jpg" alt="gallery">
-									</div>
-								</div>
-								<div class="col-md-7 col-sm-12">
-									<div class="gallerycontent">
-										<h2 class="eventname">R.J Shashi</h2>
-										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s....</p>
-										<div class="float-right text-color">
-											<a href="javascript:void(0);">Read More...</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div> -->
 					</div>
 				</div>
 			</div>
@@ -261,71 +225,8 @@ require('header.php');
 
 	<!-------------------------------End Gallery section -------------------------------->
 
-	<!-------------------------------Our Team -------------------------------->
-	<!-- <section class="team-section">
-		<div class="container">
-			<div class="row text-center">
-				<div class="col-md-12">
-					<h2 class="tittlehead">Our Team</h2>
-				</div>
-			</div>
-			<div class="row m-t-10">
-				<div class="col-md-12 border-all">
-					<div class="owl-carousel" id="our_team">
-						<div class="item">
-							<img src="images/team1.png" alt="team">
-							<div class="overlay">
-								<h3>Arvind Sinha</h3>
-							</div>
-						</div>
-						<div class="item">
-							<img src="images/team2.png" alt="team">
-							<div class="overlay">
-								<h3>Prakash Sharma</h3>
-							</div>
-						</div>
-						<div class="item">
-							<img src="images/team3.png" alt="team">
-							<div class="overlay">
-								<h3>Varun Kumar</h3>
-							</div>
-						</div>
-						<div class="item">
-							<img src="images/team4.jpeg" alt="team">
-							<div class="overlay">
-								<h3>Kumar Rahul</h3>
-							</div>
-						</div>
-						
-						<div class="item">
-							<img src="images/team6.png" alt="team">
-							<div class="overlay">
-								<h3>Satyesh Shivam</h3>
-							</div>
-						</div>
-						<div class="item">
-							<img src="images/team7.jpg" alt="team">
-							<div class="overlay">
-								<h3>Ravi Baranwal</h3>
-							</div>
-						</div>
-						<div class="item">
-							<img src="images/team8.jpg" alt="team">
-							<div class="overlay">
-								<h3>Zulfaquar Ahmad Arfi</h3>
-							</div>
-						</div>
-						<div class="item">
-							<img src="images/team.png" alt="team">
-							<div class="overlay">
-								<h3>Sudhanshu Shekhar</h3>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
+	<!-------------------------------Our video -------------------------------->
+	
 	<section class="team-section">
 		<div class="container">
 			<div class="col-md-12 text-center">
@@ -350,14 +251,14 @@ require('header.php');
 			        </div>
 				</div>
 				<div class="row">
-					<div class="col-md-12 text-right">
+					<div class="col-md-12 text-right m-t-10">
 						<a class="view-more" href="video-gallery.php">View More</a>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-------------------------------End Our Team -------------------------------->
+	<!-------------------------------End Our video -------------------------------->
 
 
 	<!-------------------------------start Testimonial -------------------------------->
@@ -369,7 +270,7 @@ require('header.php');
 				</div>
 			</div>
 			<div class="row m-t-10">
-				<div class="col-md-4 text-center">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
 					<div class="testimonial-outer border-all-side">
 						<div class="testimonialimg">
 							<img src="images/testimonial1.png" alt="Testimonials">
@@ -381,7 +282,7 @@ require('header.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 text-center">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
 					<div class="testimonial-outer border-all-side">
 						<div class="testimonialimg">
 							<img src="images/testimonial2.png" alt="Testimonials">
@@ -393,13 +294,25 @@ require('header.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 text-center">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
 					<div class="testimonial-outer border-all-side">
 						<div class="testimonialimg">
 							<img src="images/testimonial3.png" alt="Testimonials">
 						</div>
 						<div class="testimonial-content">
 							<h3>Ravi Shankar Prasad</h3>
+							<p>I am immensely pleased to know that a global forum namely "Bihar Fraternity" is being launched on... </p>
+							<a class="redd" href="view-single-testimonial.php?id=3" id="testimonialthree">Read More</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-center">
+					<div class="testimonial-outer border-all-side">
+						<div class="testimonialimg">
+							<img src="images/testimonial4.png" alt="Testimonials">
+						</div>
+						<div class="testimonial-content">
+							<h3>Peter Feldmann</h3>
 							<p>I am immensely pleased to know that a global forum namely "Bihar Fraternity" is being launched on... </p>
 							<a class="redd" href="view-single-testimonial.php?id=3" id="testimonialthree">Read More</a>
 						</div>

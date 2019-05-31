@@ -80,33 +80,56 @@ require('header.php');
 						</div>
 					</div>
 				</div>
-				<div class="item border-all m-b-30 backgroundwhite">
+				<div class="item border-all m-b-30 backgroundwhite gallerySlider">
 					<div class="row">
 						<div class="col-md-5 col-sm-12">
-							<div class="gallery-img">
-								<a href="images/gallery/gallery2.jpg" class="fancybox"  rel="fancybox-thumb">
-									<img src="images/gallery/gallery2.jpg" alt="gallery">
-									<div class="overlay">
-										<div class="view-gallery">
-											<i class="fa fa-eye"></i>
+							<div class="owl-carousel galleryslide" id="galleryslide">
+								<div class="gallery-img">
+									<a href="images/gallery/gallery2.jpg" class="fancybox"  rel="fancybox-thumb">
+										<img src="images/gallery/gallery2.jpg" alt="gallery">
+										<div class="overlay">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
 										</div>
-									</div>
-								</a>
+									</a>
+								</div>
+								<div class="gallery-img">
+									<a class="fancybox" rel="fancybox-thumb" href="images/gallery/Conclave_Kavi_Sammelan_Patna.jpg">
+										<img src="images/gallery/Conclave_Kavi_Sammelan_Patna.jpg" alt="gallery">
+										<div class="overlay">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
+										</div>
+									</a>
+								</div>
+								<div class="gallery-img">
+									<a class="fancybox" rel="fancybox-thumb" href="images/gallery/conclave-patna2.jpg">
+										<img src="images/gallery/conclave-patna2.jpg" alt="gallery">
+										<div class="overlay">
+											<div class="view-gallery">
+												<i class="fa fa-eye"></i>
+											</div>
+										</div>
+									</a>
+								</div>
 							</div>
 						</div>
-						<div class="col-md-7 col-sm-12">
-							<div class="gallerycontent">
-								<h2 class="eventname">Bihar Fraternity Conclave Patna</h2>
-								<p>सोलह नवंबर (16.11.2018) की शाम पाँच बजे से भारतीय नृत्य कला मंदिर, पटना में “Bihar Fraternity Conclave 2018” कार्यक्रम में बिहार के विकास के मुद्दों पर चर्चा और साथ ही साथ कवि सम्मेलन व लोकगीतों का आयोजन होने जा रहा है। शिक्षा-स्वास्थ्य, कला-साहित्य और राजनीति से सम्बंधित विशेषज्ञ और अपना महत्वपूर्ण योगदान दे रहे शख़्सियतों के साथ परिचर्चा। 
-									इसके अलावा कवि सम्मेलन जिसमें मशहूर हास्य कवियों की टोली शम्भू शिखर, चिराग़ जैन, रमेश मुस्कान व स्वाति ख़ुशबू अपनी प्रस्तुतियों से लोगों को लोटपोट करने वाले हैं। साथ ही बिहार के उभरते गायक... 
-								</p>
-								<div class="float-right text-color">
-									<a href="view-single-gallery.php?id=2">Read More</a>
+							<div class="col-md-7 col-sm-12">
+								<div class="gallerycontent">
+									<h2 class="eventname">Bihar Fraternity Conclave Patna</h2>
+									<p>सोलह नवंबर (16.11.2018) की शाम पाँच बजे से भारतीय नृत्य कला मंदिर, पटना में “Bihar Fraternity Conclave 2018” कार्यक्रम में बिहार के विकास के मुद्दों पर चर्चा और साथ ही साथ कवि सम्मेलन व लोकगीतों का आयोजन होने जा रहा है। शिक्षा-स्वास्थ्य, कला-साहित्य और राजनीति से सम्बंधित विशेषज्ञ और अपना महत्वपूर्ण योगदान दे रहे शख़्सियतों के साथ परिचर्चा। 
+										इसके अलावा कवि सम्मेलन जिसमें मशहूर हास्य कवियों की टोली शम्भू शिखर, चिराग़ जैन, रमेश मुस्कान व स्वाति ख़ुशबू अपनी प्रस्तुतियों से लोगों को लोटपोट करने वाले हैं। साथ ही बिहार के उभरते गायक... 
+									</p>
+									<div class="float-right text-color">
+										<a href="view-single-gallery.php?id=2">Read More</a>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>	
+				
 				<div class="item border-all m-b-30 backgroundwhite">
 					<div class="row">
 						<div class="col-md-5 col-sm-12">

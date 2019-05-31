@@ -9,7 +9,7 @@ require('header.php');
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 					<div class="outer-wrap clearfix">
 						<img src="images/press/group.jpg" alt="press">
 						<div class="press-content">
@@ -21,7 +21,7 @@ require('header.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 					<div class="outer-wrap clearfix">
 						<img src="images/press/Awari_Madhubani.jpg" alt="press">
 						<div class="press-content">
@@ -33,7 +33,7 @@ require('header.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 					<div class="outer-wrap clearfix">
 						<img src="images/press/project-jyoti.jpg" alt="press">
 						<div class="press-content">
@@ -45,7 +45,7 @@ require('header.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 					<div class="outer-wrap clearfix">
 						<img src="images/press/bihar-diwas.jpg" alt="press">
 						<div class="press-content">
@@ -57,9 +57,9 @@ require('header.php');
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 					<div class="outer-wrap clearfix">
-						<img src="images/press/bihar-germany.png" alt="press">
+						<img src="images/press/bihar-germany.PNG" alt="press">
 						<div class="press-content">
 							<h3>जर्मनी में मनेगा बिहार दिवस, अपनी जड़ों को याद करेंगे प्रवासी</h3>
 							<p>सात समंदर पार रह रहे बिहारी मूल के लोगों को एक कड़ी में जोड़ने के प्रयासों के तहत जर्मनी में 26 मई को 'बिहार दिवस' मनाया...</p>
@@ -77,7 +77,7 @@ require('header.php');
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 						<div class="outer-wrap">
 							<a class="fancybox" rel="fancybox-thumb" href="images/press/Hindustan.jpg">
 								<img src="images/press/Hindustan.jpg" alt="press">
@@ -89,7 +89,7 @@ require('header.php');
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 						<div class="outer-wrap">
 							<a class="fancybox" rel="fancybox-thumb" href="images/press/PatnaConclave_1.jpg">
 								<img src="images/press/PatnaConclave_1.jpg" alt="press">
@@ -101,7 +101,7 @@ require('header.php');
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 						<div class="outer-wrap">
 							<a class="fancybox" rel="fancybox-thumb" href="images/press/PatnaConclave_2.jpg">
 								<img src="images/press/PatnaConclave_2.jpg" alt="press">
@@ -113,7 +113,7 @@ require('header.php');
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 						<div class="outer-wrap">
 							<a class="fancybox" rel="fancybox-thumb" href="images/press/PatnaConclave_3.jpg">
 								<img src="images/press/PatnaConclave_3.jpg" alt="press">
@@ -125,10 +125,10 @@ require('header.php');
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 						<div class="outer-wrap">
 							<a class="fancybox" rel="fancybox-thumb" href="images/press/PrabhatKhabar.jpg">
-								<img src="images/press/PrabhatKhabar.jpg" alt="press">
+								<img src="images/press/PrabhatKhabar.JPG" alt="press">
 								<div class="overlay">
 									<div class="view-gallery">
 										<i class="fa fa-eye"></i>
@@ -137,7 +137,7 @@ require('header.php');
 							</a>
 						</div>
 					</div>
-					<div class="col-md-4">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6">
 						<div class="outer-wrap">
 							<a class="fancybox" rel="fancybox-thumb" href="images/press/prabhatkhabar_conclave.jpg">
 								<img src="images/press/prabhatkhabar_conclave.jpg" alt="press">

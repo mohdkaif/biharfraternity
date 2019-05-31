@@ -2,7 +2,7 @@
 require('header.php');
 
 ?>
-<section class="backgroundgray singlepage single-view-testimonial">
+<section class="backgroundgray viewSingle singlepage single-view-testimonial">
 	<div class="container">
 		<div class="col-md-12 text-center">
 			<h2 class="tittlehead" style="padding-top: 20px;">Testimonial</h2>
