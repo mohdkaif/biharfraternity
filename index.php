@@ -7,7 +7,7 @@ require('header.php');
 			<img src="images/banner.jpg" class="img-responsive">
 		</div>
 	</section>
-	<section class="about-us-section">
+	<section class="about-us-section backgroundwhite ">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-12">
@@ -31,7 +31,7 @@ require('header.php');
 	</section>
 
 	<!-------------------------------Gallery section -------------------------------->
-	<section class="gallery-section">
+	<section class="gallery-section backgroundwhite ">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-12">
@@ -169,7 +169,7 @@ require('header.php');
 
 	<!-------------------------------Our video -------------------------------->
 	
-	<section class="team-section">
+	<section class="team-section backgroundwhite ">
 		<div class="container">
 			<div class="col-md-12 text-center">
 				<h2 class="tittlehead">Our Video Gallery</h2>
@@ -204,7 +204,7 @@ require('header.php');
 
 
 	<!-------------------------------start Testimonial -------------------------------->
-	<section class="testimonial-section">
+	<section class="testimonial-section backgroundwhite ">
 		<div class="container">
 			<div class="row text-center">
 				<div class="col-md-12">

@@ -95,8 +95,8 @@ require('header.php');
 									</a>
 								</div>
 								<div class="gallery-img">
-									<a class="fancybox" rel="fancybox-thumb" href="images/gallery/Conclave_Kavi_Sammelan_Patna.jpg">
-										<img src="images/gallery/conclave-patna4.jpg" alt="gallery">
+									<a class="fancybox" rel="fancybox-thumb" href="images/gallery/conclave-patna4.png">
+										<img src="images/gallery/conclave-patna4.png" alt="gallery">
 										<div class="overlay">
 											<div class="view-gallery">
 												<i class="fa fa-eye"></i>
@@ -105,8 +105,8 @@ require('header.php');
 									</a>
 								</div>
 								<div class="gallery-img">
-									<a class="fancybox" rel="fancybox-thumb" href="images/gallery/conclave-patna2.jpg">
-										<img src="images/gallery/conclave-patna3.jpg" alt="gallery">
+									<a class="fancybox" rel="fancybox-thumb" href="images/gallery/conclave-patna3.png">
+										<img src="images/gallery/conclave-patna3.png" alt="gallery">
 										<div class="overlay">
 											<div class="view-gallery">
 												<i class="fa fa-eye"></i>

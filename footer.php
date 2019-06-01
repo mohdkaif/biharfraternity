@@ -34,7 +34,7 @@ require('header.php');
       
     }
 ?>
-<footer class="footer">
+<footer class="footer" id="footer">
 		<div class="bg-footer footerSection border-top">
 			<div class="container">
 				<div class="row">
@@ -116,7 +116,7 @@ require('header.php');
 		     <p>Designed & Developed by <a href="https://www.igniterpro.com/" target="_blank"> Igniterpro</a></p>
 		  </div>
 		</div>
-	</footer>
+</footer>
 	<script src="js/jquery-min.js"></script>
 
     <script src="js/popper.min.js"></script>
@@ -207,7 +207,7 @@ require('header.php');
             dots: false,
             autoplaySpeed: 2000,
             autoplay:true,
-            autoplayHoverPause:true,
+            // autoplayHoverPause:true,
             // autoplayTimeout:500,
             responsive: {
               0: {
@@ -234,6 +234,7 @@ require('header.php');
           $('.testimonial-outer').on('mouseover',function(){
               owl.trigger('stop.owl.autoplay')
           });
+
 
           /*----------------------Our testimonial---------------------------*/ 
 
@@ -306,5 +307,18 @@ require('header.php');
 
     });
     </script>
+    <script>
+
+    $(document).ready(function() {
+
+     var docHeight = $(window).height();
+     var footerHeight = $('#footer').height();
+     var footerTop = $('#footer').position().top + footerHeight;
+
+     if (footerTop < docHeight) {
+      $('#footer').css('margin-top', 5+ (docHeight - footerTop) + 'px');
+     }
+    });
+   </script>
 </body>
 </html>
