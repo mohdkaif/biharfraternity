@@ -126,6 +126,22 @@ require('header.php');
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <script type="text/javascript">
         $(document).ready(function() {
+          var owl = $('#bannerSlider');
+             owl.owlCarousel({
+              loop: true,
+              nav: true,
+              items: 1,
+              margin:30,
+              dots: false,
+              autoplaySpeed: 2000,
+              autoplay:true,
+              autoplayTimeout:1000,
+              autoplayHoverPause:true,
+              
+          });
+
+    /*-----------------------gallery slider----------------------------*/
+
          var owl = $('#galleryslider');
            owl.owlCarousel({
             loop: true,
@@ -259,6 +275,8 @@ require('header.php');
               owl.trigger('stop.owl.autoplay')
           });
 
+
+
          /*-----------------------End Gallery slider------------------------------------*/
 
         $(document).ready(function() {
@@ -316,7 +334,7 @@ require('header.php');
      var footerTop = $('#footer').position().top + footerHeight;
 
      if (footerTop < docHeight) {
-      $('#footer').css('margin-top', 5+ (docHeight - footerTop) + 'px');
+      $('#footer').css('margin-top', 2+ (docHeight - footerTop) + 'px');
      }
     });
    </script>

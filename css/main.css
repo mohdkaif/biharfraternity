@@ -61,13 +61,11 @@ span.navbar-toggler-icon.navBarr i {
 .navbarright{
   justify-content: flex-end;
 }
-a.nav-link.navListing:hover{
-  color: #000;
-}
+
 ul.dropdown {
     list-style-type: none;
     display: none; 
-    top: 50px;
+    top: 53px;
     word-break: break-all;
     border: 1px solid #ddd;
     /*box-shadow: 2px 2px 3px #4e4b4b;*/
@@ -100,6 +98,31 @@ a.nav-link.navListing {
     padding: 10px 15px !important;
     color: #006;
 }
+.navbarright ul.navbar-nav li a.nav-link.navListing{
+  position: relative;
+}
+.navbarright ul.navbar-nav li a.nav-link.navListing{
+  position: relative;
+}
+.navbarright ul.navbar-nav li a.nav-link.navListing::after{
+  content: '';
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  bottom: 5px;
+  border-bottom: 2px solid #000066;
+  opacity: 0;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+.navbarright ul.navbar-nav li a.nav-link.navListing:hover::after{
+  opacity: 1;
+  left: 0;
+  right: 0;
+  border-color: #000066;
+}
 .navListing i{
   color: #006;
   font-size: 12px;
@@ -115,7 +138,47 @@ a.nav-link.navListing {
 .sliders img {
     width: 100%;
 }
-
+.bannersection .owl-carousel .owl-nav{
+  top: 40%;
+  position: absolute;
+  width: 100%;
+}
+.bannersection .owl-carousel .owl-nav .owl-prev:before{
+  content: "\f053";
+  font-size: 26px;
+  position: absolute;
+  height: 70px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  transition: .3s ease-in;
+  text-align: center;
+  color: #fff;
+  left: 0;
+  background-color: rgb(57, 165, 212,.5);
+  border: 2px solid transparent;
+  font-family: fontAwesome;
+}
+.bannersection .owl-carousel .owl-nav .owl-next:before{
+  content: "\f054";
+  font-size: 26px;
+  position: absolute;
+  height: 70px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  background-color: rgb(57, 165, 212,.5);
+  border: 2px solid transparent;
+}
+.bannersection .owl-carousel .owl-nav .owl-prev:hover:before{
+  background-color: #fff;
+  border: 2px solid #39a5d4;
+  color: #39a5d4;
+}
 /*--------------------- start About us-----------------------------*/
 .tittlehead{
   color: #39a5d4;
@@ -409,12 +472,39 @@ ul.about-gallery li {
   height: 210px;
   width: 100%;
 }
-.outer-wrap .float-right a {
-    padding: 5px 15px;
+.press-content .text-right{
+  text-align: right !important;
+}
+a.source-link {
+    padding: 3px 13px;
     border-radius: 5px;
     font-size: 18px;
     color: #000066;
+    transition: all 0.5s;
     border: 1px solid #000066;
+}
+a.source-link span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+a.source-link span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+a.source-link:hover span {
+  padding-right: 15px;
+}
+
+.outer-wrap .text-right a:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 .press-content h3{
   font-size: 20px;
@@ -658,7 +748,7 @@ h2.places-head {
 #footer
 {
     width: 100%;
-    height: 414px;
+    height: 408px;
     
 }
 .footerSection{
@@ -1130,6 +1220,24 @@ section#contact {
   .testimonial-content p{
     font-size: 12px;
   }
+  .sliderRelative{
+    height: unset;
+  }
+  .bannersection .owl-carousel .owl-nav .owl-prev:before{
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    background-color: transparent;
+  }
+  .bannersection .owl-carousel .owl-nav .owl-next:before{
+    height: 30px;
+    width: 30px;
+    font-size: 16px;
+    background-color: transparent;
+  }
+  .bannersection .owl-carousel .owl-nav .owl-next:hover:before{
+    border: none;
+  }
 }
 @media (max-width: 420px){
   .m-t-20 {
@@ -1147,9 +1255,13 @@ section#contact {
   .tittlehead {
       font-size: 25px;
   }
+  .sliderRelative img{
+    height: 162px;
+  }
 }
 @media (max-width: 359px){
   .team-section .item {
       height: 250px;
   }
+  
 }

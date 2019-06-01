@@ -4,7 +4,14 @@ require('header.php');
 	
 	<section class="bannersection">
 		<div class="sliders sliderRelative">
-			<img src="images/banner.jpg" class="img-responsive">
+			<div class="owl-carousel" id="bannerSlider">
+				<div class="item">
+					<img src="images/banner.jpg" class="img-responsive" alt="banner">
+				</div>
+				<div class="item">
+					<img src="images/BiharDiwas_Berlin_Group.jpg" alt="banner" class="img-responsive">
+				</div>
+			</div>
 		</div>
 	</section>
 	<section class="about-us-section backgroundwhite ">

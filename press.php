@@ -15,8 +15,8 @@ require('header.php');
 						<div class="press-content">
 							<h3>Bihar Mahotsav 2019' in Germany on June 15</h3>
 							<p>New Delhi, Apr 28 (UNI) More than 350 people are expected to witness 'Bihar Mahotsav 2019' in Germany...</p>
-							<div class="float-right">
-								<a href="http://www.uniindia.com/-bihar-mahotsav-2019-in-germany-on-june-15/india/news/1579458.html" target="_blank">Source</a>
+							<div class="text-right">
+								<a href="http://www.uniindia.com/-bihar-mahotsav-2019-in-germany-on-june-15/india/news/1579458.html" target="_blank" class="source-link"><span>Source</span></a>
 							</div>
 						</div>
 					</div>
@@ -27,8 +27,8 @@ require('header.php');
 						<div class="press-content">
 							<h3>Bihar Fraternity Germany starts ‘Project Jyoti’ for deprived students</h3>
 							<p>New Delhi, May 29 (UNI) With objectives to improve the educational quality of their...</p>
-							<div class="float-right">
-								<a href="http://www.uniindia.com/bihar-fraternity-germany-starts-project-jyoti-for-deprived-students/india/news/1245179.html" target="_blank">Source</a>
+							<div class="text-right">
+								<a href="http://www.uniindia.com/bihar-fraternity-germany-starts-project-jyoti-for-deprived-students/india/news/1245179.html" target="_blank" class="source-link"><span>Source</span></a>
 							</div>
 						</div>
 					</div>
@@ -39,8 +39,8 @@ require('header.php');
 						<div class="press-content">
 							<h3>Bihar Fraternity Germany starts ‘Project Jyoti’ for deprived students</h3>
 							<p>With objectives to improve the educational quality of their state, people from Bihar....</p>
-							<div class="float-right">
-								<a href="https://www.indiasentinels.com/2018/05/29/bihar-fraternity-germany-starts-project-jyoti-for-deprived-students/" target="_blank">Source</a>
+							<div class="text-right">
+								<a href="https://www.indiasentinels.com/2018/05/29/bihar-fraternity-germany-starts-project-jyoti-for-deprived-students/" target="_blank" class="source-link"><span>Source</span></a>
 							</div>
 						</div>
 					</div>
@@ -51,8 +51,8 @@ require('header.php');
 						<div class="press-content">
 							<h3>जर्मनी में भी जय-जय बिहार, 26 मई को मनाया जाएगा बिहार दिवस</h3>
 							<p>पटना: जर्मनी के शहर बर्लिन में 26 मई को बिहार दिवस मनाया जाएगा। जर्मनी में रह रहे बिहार के लोगों ने बर्लिन में 'बिहार फ्रेटर्निटी जर्मनी' के बैनर तले इस खास ...</p>
-							<div class="float-right">
-								<a href="https://hindi.indiatvnews.com/india/national-bihar-diwas-to-be-celebrated-in-berlin-city-germany-on-26th-may-bihar-fraternity-germany-583394" target="_blank">Source</a>
+							<div class="text-right">
+								<a href="https://hindi.indiatvnews.com/india/national-bihar-diwas-to-be-celebrated-in-berlin-city-germany-on-26th-may-bihar-fraternity-germany-583394" target="_blank" class="source-link"><span>Source</span></a>
 							</div>
 						</div>
 					</div>
@@ -63,8 +63,8 @@ require('header.php');
 						<div class="press-content">
 							<h3>जर्मनी में मनेगा बिहार दिवस, अपनी जड़ों को याद करेंगे प्रवासी</h3>
 							<p>सात समंदर पार रह रहे बिहारी मूल के लोगों को एक कड़ी में जोड़ने के प्रयासों के तहत जर्मनी में 26 मई को 'बिहार दिवस' मनाया...</p>
-							<div class="float-right">
-								<a href="https://navbharattimes.indiatimes.com/state/bihar/patna/bihar-diwas-to-be-celebrated-in-germany/articleshow/63531418.cms" target="_blank">Source</a>
+							<div class="text-right">
+								<a href="https://navbharattimes.indiatimes.com/state/bihar/patna/bihar-diwas-to-be-celebrated-in-germany/articleshow/63531418.cms" target="_blank" class="source-link"><span>Source</span></a>
 							</div>
 						</div>
 					</div>
