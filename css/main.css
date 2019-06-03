@@ -157,7 +157,7 @@ a.nav-link.navListing {
   text-align: center;
   color: #fff;
   left: 0;
-  background-color: rgb(57, 165, 212,.5);
+  background-color: transparent;
   border: 2px solid transparent;
   font-family: fontAwesome;
 }
@@ -171,12 +171,17 @@ a.nav-link.navListing {
   align-items: center;
   justify-content: center;
   border-radius: 0;
-  background-color: rgb(57, 165, 212,.5);
+  background-color: transparent;
   border: 2px solid transparent;
 }
 .bannersection .owl-carousel .owl-nav .owl-prev:hover:before{
-  background-color: #fff;
-  border: 2px solid #39a5d4;
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: #39a5d4;
+}
+.bannersection .owl-carousel .owl-nav .owl-next:hover:before{
+  background-color: transparent;
+  border: 2px solid transparent;
   color: #39a5d4;
 }
 /*--------------------- start About us-----------------------------*/
@@ -242,6 +247,32 @@ ul.about-gallery li {
 /*---------------------start Gallery-----------------------------*/
 .gallery-section{
    padding: 20px 0 15px;
+}
+.text-color a{
+  position: relative;
+}
+.text-color a:after{
+  content: '';
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: -4px;
+    border-bottom: 2px solid #3058a7;
+    opacity: 0;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.text-color a:hover{
+  color:#3058a7;
+  font-weight: 700;
+}
+.text-color a:hover::after{
+  opacity: 1;
+  left: 0;
+  right: 0;
+  border-color: #3058a7;
 }
 .gallerycontent {
     padding: 0 10px;
@@ -467,6 +498,75 @@ ul.about-gallery li {
   height: 313px;
 }
 /*---------------------start facts-----------------------------*/
+ul.factWrapperList {
+    padding-top: 10px;
+}
+.factWrapperList li{
+  transition: .3s ease-in;
+}
+.factWrapperList li:hover{
+  margin-left: 10px;
+}
+.factWrapperList li a{
+  cursor: default;
+      color: #000;
+}
+ul.factWrapperList li i {
+    color: #13143e;
+    font-weight: 700;
+}
+.factspage.gallery-section .border-all{
+  border: 5px solid #2e3192;
+  border-style: ridge;
+  margin: 0 100px;
+  padding-top: 30px;
+  padding-left: 0;
+}
+.factWrapperList li{
+  list-style-type: none;
+  position: relative;
+}
+.factsrelative{
+  position: relative;
+}
+.border-facts{
+    height: 15px;
+}
+.border-facts img{
+  height: 100%;
+}
+.borderFacts img{
+  transform:rotate(180deg);
+}
+.borderFacts{
+  top: -3%;
+  position: absolute;
+  left: 4%;
+}
+.borderFacts-1 {
+    position: absolute;
+    top: 22%;
+    left: -9%;
+}
+.borderFacts-1 img{
+  transform: rotate(90deg);
+}
+.borderFacts-2 img{
+  /*transform:rotate(180deg);*/
+}
+.borderFacts-2{
+  position: absolute;
+  right: 3%;
+  bottom: 0;
+}
+.borderFacts-3 {
+    position: absolute;
+    bottom: 26%;
+    right: -11%;
+}
+.borderFacts-3 img{
+  transform: rotate(270deg);
+}
 /*---------------------start press-----------------------------*/
 .outer-wrap img{
   height: 210px;
@@ -719,9 +819,13 @@ h2.places-head {
   font-weight: normal;
   color: rgba(13,13,13,1);
 }
+.testimonialpage{
+  margin-top: 62px;
+}
 .testimonial-outer {
   padding: 30px 20px;
       margin-bottom: 30px;
+      background: #fff;
 }
 .testimonialimg img {
     border-radius: 50%;
@@ -741,6 +845,33 @@ h2.places-head {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: normal;
+  transition: .3s all;
+}
+.testimonial-content a{
+  position: relative;
+}
+.testimonial-content a:after{
+  content: '';
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: -4px;
+    border-bottom: 2px solid #3058a7;
+    opacity: 0;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}
+.testimonial-content a:hover{
+  color:#3058a7;
+  font-weight: 700;
+}
+.testimonial-content a:hover::after{
+  opacity: 1;
+  left: 0;
+  right: 0;
+  border-color: #3058a7;
 }
 /*---------------------End Testimonial-----------------------------*/
 
@@ -903,6 +1034,11 @@ button.btn-btn-blue {
 .gallery-section .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{
   top: -29px;
 }
+a.fancybox {
+    width: 100%;
+    display: block;
+    height: 100%;
+}
 .owl-carousel .owl-nav .owl-prev:before{
   content: "\f053";
     font-size: 16px;
@@ -1021,6 +1157,15 @@ section#contact {
   .aboutSection{
     padding-top: 20px;
   }
+  .borderFacts-1{
+    left: -11.1%;
+    top: 17%;
+  }
+  
+  .borderFacts-3{
+    bottom: 21%;
+    right: -12%;
+  }
   .about-gallery{
     flex-wrap: wrap;
     align-items: center;
@@ -1035,6 +1180,10 @@ section#contact {
   }
   .footer-links textarea{
     width: 100%;
+  }
+  .single-view-testimonial .testimonial-content p{
+    height: auto;
+    overflow: hidden;
   }
   .testimonial-content p{
     height: 53px;
@@ -1067,16 +1216,56 @@ section#contact {
      padding: 0 10px;
      height: 112px;
   }
+  .factWrapperList li{
+    font-size: 14px;
+  }
+  .borderFacts-3 {
+    bottom: 16%;
+    right: -21%;
+  }
+  .borderFacts-2{
+    right: 1%;
+  }
+  .borderFacts-1 {
+    top: 13%;
+    left: -18%;
+  }
   .mobile-btn{
     display:block;
   }
   .team-section{
     padding-top:0;
   }
+  #footer{
+    height: unset;
+  }
 }
 @media (max-width: 767px) {
   .navbar-toggler{
     padding-right: 3px;
+  }
+  .factWrapperList li{
+    font-size: 14px;
+  }
+  .factspage.gallery-section .border-all{
+    margin: 0 0;
+  }
+  .border-facts{
+    display: none;
+  }
+  ul.factWrapperList li i{
+    display: none;
+  }
+  ul.factWrapperList li{
+    list-style-type: disc;
+  }
+  .factspage.gallery-section .border-all{
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  ul.factWrapperList {
+      padding-bottom: 16px;
+      padding-left: 10px;
   }
   .g-recaptcha{
     width: 100%;
@@ -1186,7 +1375,7 @@ section#contact {
     height: 200px;
   }
   .testimonial-outer{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
   .testimonial-section{
     padding: 20px 0 10px;
@@ -1212,13 +1401,16 @@ section#contact {
   .our_team_page .m-t-20 {
       margin-top: 10px;
   }
+  .navbarright ul.navbar-nav li a.nav-link.navListing:hover::after{
+    opacity: 0;
+  }
 }
 @media (max-width: 576px){
   .testimonial-content h3{
     font-size: 19px;
   }
-  .testimonial-content p{
-    font-size: 12px;
+  .single-view-testimonial .testimonial-content p{
+    font-size: 14px;
   }
   .sliderRelative{
     height: unset;
@@ -1243,6 +1435,17 @@ section#contact {
   .m-t-20 {
       margin-top: 5px;
   }
+  .border-facts {
+      display: none;
+  }
+  .factspage.gallery-section .border-all{
+    padding: 20px 10px;
+  }
+
+  ul.factWrapperList{
+    padding-bottom: 0;
+    padding-left: 15px;
+  }
   .gallerycontent p{
     margin-bottom: 0;
   }
@@ -1256,7 +1459,10 @@ section#contact {
       font-size: 25px;
   }
   .sliderRelative img{
-    height: 162px;
+    height: 200px;
+  }
+  .bannersection .owl-carousel .owl-nav{
+    top:45%;
   }
 }
 @media (max-width: 359px){

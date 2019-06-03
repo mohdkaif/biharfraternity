@@ -4,11 +4,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta content="" name="description"/>
-    <meta content="" name="author"/>
+    <meta content="Bihar Fraternity is started by some like-minded individuals to bring all expatriate Biharis living in and around Germany to share the common bonding" name="description"/>
+    <meta content="Bihar Fraternity - Renaissance To Cherish" name="author"/>
     <meta charset="utf-8"/>
     <title>Bihar Fraternity - Renaissance To Cherish</title>
-    <link rel="icon" type="image/png" href="images/logo.png">
+    <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">  
@@ -25,7 +25,8 @@
 			<a href="mailto:connect@biharfraternity.org"><i class="fa fa-envelope" style="margin-right: 4px;color:#fff;font-size: 13px;"></i>connect@biharfraternity.org</a>
 		</div> -->
 		<nav class="navbar navbar-expand-md bg-defualt navbarListingtop">
-		  <a class="navbar-brand" href="index.php"><img src="images/bihar-logo1.png" style="width: 100px;height: 57px;"></a>
+		  <a class="navbar-brand" href="index.php">
+		  	<img src="images/bihar-logo1.png" style="height: 57px;"></a>
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
 		    <span class="navbar-toggler-icon navBarr">
 		    	<i class="fa fa-bars"></i>

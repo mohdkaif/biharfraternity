@@ -35,89 +35,89 @@ require('header.php');
     }
 ?>
 <footer class="footer" id="footer">
-		<div class="bg-footer footerSection border-top">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-4 col-md-6">
-						<div class="footer-links">
-							<h3>Helpful Links</h3>
-							<div>
-								<ul class="links-footer">
-									<li><a href="about.php">About Us</a></li>
-									<li><a href="impressum.php">Impressum</a></li>
-									<li><a href="datenschutz.php">Datenschutz</a></li>
-								</ul>
-							</div>
-							<h3>Social Links</h3>
-							<ul class="Sociallinks">
-								<li><a href="https://www.facebook.com/BiharFraternity"><i class="fa fa-facebook"></i></a></li>
-								<li><a href=" https://www.instagram.com/biharfraternity"><i class="fa fa-instagram"></i></a></li>
-								<li><a href="https://www.linkedin.com/company/biharfraternity"><i class="fa fa-linkedin"></i></a></li>
-								<li><a href=" https://twitter.com/BiharFraternity"><i class="fa fa-twitter"></i></a></li>
-								<li><a href=" https://www.youtube.com/channel/UCt_z3Eg-ZyRtUHGJ-IYFigA"><i class="fa fa-youtube"></i></a></li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="footer-links">
-							<h3>Contact US</h3>
-							<ul class="links-footer contactlinks">
-								<li class="clearfix">
-									<i class="fa fa-map-marker fontaddress float-left" style="font-size: 22px;"></i>
-									<div class="float-left" style="padding-right: 8px;padding-bottom: 10px;font-family: 'Montserrat', sans-serif;">Hemingstedter Weg<br> 10,22607 Hamburg, Germany</div></li>
-								<li class="clearfix">
-									<i class="fa fa-envelope fontaddress float-left"></i>
-									<a href="mailto:connect@biharfraternity.de" class="float-left">connect@biharfraternity.de</a>
-								</li>
-							</ul>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6">
-						<div class="footer-links">
-							<h3>Suggestions ?</h3>
-							<div>
-								<form id="contactForm" action="footer.php" method="POST">
-									<div class="row">
-										<div class="col-md-12">
-											<div class="form-group">
-												<input type="text" name="fullname" class="form-control" placeholder="Name">
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-12">
-											<div class="form-group">
-												<input type="text" name="email" class="form-control" placeholder="Email">
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-12">
-											<div class="form-group">
-												<textarea type="text" class="form-control" name="message">Message</textarea>
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="col-md-12">
-											<div class="g-recaptcha" data-sitekey="6LcAXqMUAAAAANNJVFDw91eZkT21S7RAxG3bkqKZ"></div>
-											<button class="btn-btn-blue" id="submit" type="submit" name="submit">Submit</button>
-										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bg-black">
-			<div class="text-center copyright_footer">
-		     <p>Designed & Developed by <a href="https://www.igniterpro.com/" target="_blank"> Igniterpro</a></p>
-		  </div>
-		</div>
+    <div class="bg-footer footerSection border-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-links">
+              <h3>Helpful Links</h3>
+              <div>
+                <ul class="links-footer">
+                  <li><a href="about.php">About Us</a></li>
+                  <li><a href="impressum.php">Impressum</a></li>
+                  <li><a href="datenschutz.php">Datenschutz</a></li>
+                </ul>
+              </div>
+              <h3>Social Links</h3>
+              <ul class="Sociallinks">
+                <li><a href="https://www.facebook.com/BiharFraternity" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href=" https://www.instagram.com/biharfraternity" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/biharfraternity" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href=" https://twitter.com/BiharFraternity" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href=" https://www.youtube.com/channel/UCt_z3Eg-ZyRtUHGJ-IYFigA" target="_blank"><i class="fa fa-youtube"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-links">
+              <h3>Contact US</h3>
+              <ul class="links-footer contactlinks">
+                <li class="clearfix">
+                  <i class="fa fa-map-marker fontaddress float-left" style="font-size: 22px;"></i>
+                  <div class="float-left" style="padding-right: 8px;padding-bottom: 10px;font-family: 'Montserrat', sans-serif;">Hemingstedter Weg<br> 10,22607 Hamburg, Germany</div></li>
+                <li class="clearfix">
+                  <i class="fa fa-envelope fontaddress float-left"></i>
+                  <a href="mailto:connect@biharfraternity.de" class="float-left">connect@biharfraternity.de</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-links">
+              <h3>Suggestions ?</h3>
+              <div>
+                <form id="contactForm" action="footer.php" method="POST">
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" name="fullname" class="form-control" placeholder="Name">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <input type="text" name="email" class="form-control" placeholder="Email">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <textarea type="text" class="form-control" name="message">Message</textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="g-recaptcha" data-sitekey="6LcAXqMUAAAAANNJVFDw91eZkT21S7RAxG3bkqKZ"></div>
+                      <button class="btn-btn-blue" id="submit" type="submit" name="submit">Submit</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-black">
+      <div class="text-center copyright_footer">
+         <p>Designed & Developed by <a href="https://www.igniterpro.com/" target="_blank"> Igniterpro</a></p>
+      </div>
+    </div>
 </footer>
-	<script src="js/jquery-min.js"></script>
+  <script src="js/jquery-min.js"></script>
 
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
@@ -135,8 +135,8 @@ require('header.php');
               dots: false,
               autoplaySpeed: 2000,
               autoplay:true,
-              autoplayTimeout:1000,
-              autoplayHoverPause:true,
+              // autoplayTimeout:1000,
+              // autoplayHoverPause:true,
               
           });
 
@@ -223,8 +223,8 @@ require('header.php');
             dots: false,
             autoplaySpeed: 2000,
             autoplay:true,
-            // autoplayHoverPause:true,
-            // autoplayTimeout:500,
+            autoplayHoverPause:true,
+            autoplayTimeout:500,
             responsive: {
               0: {
                   items: 1
@@ -250,11 +250,12 @@ require('header.php');
           $('.testimonial-outer').on('mouseover',function(){
               owl.trigger('stop.owl.autoplay')
           });
-
+        });
 
           /*----------------------Our testimonial---------------------------*/ 
 
         /*-----------------------Start Gallery slider------------------------------------*/
+        $(document).ready(function() {
           var owl = $('.galleryslide');
              owl.owlCarousel({
               loop: true,
@@ -264,40 +265,50 @@ require('header.php');
               dots: false,
               autoplaySpeed: 2000,
               autoplay:true,
-              autoplayTimeout:1000,
               autoplayHoverPause:true,
+              slideSpeed: 700,
+              rewindSpeed: 700,
+              lazyLoad: true
               
           });
-          $('.galleryslide').on('mouseleave',function(){
-              owl.trigger('play.owl.autoplay',[2000])
-          })
-          $('.galleryslide').on('mouseover',function(){
-              owl.trigger('stop.owl.autoplay')
-          });
+             // var selector = '.owl-item:not(.cloned) a';
+             //  $().fancybox({
+             //    selector : selector,
+             //    backFocus : false
+             //  });
+            });
+
+             //  $(document).on('click', '.owl-cloned', function(e) {
+             //    $(selector)
+             //      .eq( ( $(e.currentTarget).attr("data-owl-index") || 0) % $(selector).length )
+             //      .trigger("click.fb-start", {
+             //        $trigger: $(this)
+             //      });
+
+             //    return false;
+             //  });
+            
+            // selector : '.owl-item:not(.cloned) a',
+            // hash   : false,
+            // buttons : [
+            //   'zoom',
+            //   'download',
+            //   'close'
+            // ]
+          // });
+       
 
 
 
          /*-----------------------End Gallery slider------------------------------------*/
 
-        $(document).ready(function() {
-          $(".fancybox").fancybox({
-            openEffect  : 'none',
-            closeEffect : 'none'
-          });
-        });
+          $(document).ready(function() {
 
-
-
-            /*----------------------Our team---------------------------*/ 
-
-            $(window).on('scroll', function() {
-                if ($(window).scrollTop() > 150) {
-                    $('.scrolling-navbar').addClass('top-nav-collapse');
-                } else {
-                    $('.scrolling-navbar').removeClass('top-nav-collapse');
-                }
+            $(".fancybox").fancybox({
+              openEffect  : 'none',
+              closeEffect : 'none'
+              
             });
-
             /*-------mobile toggle------------*/
             $(".mobile-dropdown").click(function(){
                 $(".mobileToggle").toggle();
@@ -322,8 +333,24 @@ require('header.php');
             //   }
             // });
 
+          });
 
-    });
+
+
+
+            /*----------------------Our team---------------------------*/ 
+
+            $(window).on('scroll', function() {
+                if ($(window).scrollTop() > 150) {
+                    $('.scrolling-navbar').addClass('top-nav-collapse');
+                } else {
+                    $('.scrolling-navbar').removeClass('top-nav-collapse');
+                }
+            });
+
+            
+
+    
     </script>
     <script>
 
