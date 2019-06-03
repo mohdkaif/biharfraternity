@@ -22,7 +22,7 @@ require('header.php');
 						<div class="col-md-8">
 							<div class="testimonial-content">
 								<h3>Dr. Vinita Sahay</h3>
-								<p>Great to hear from the "Son of the SOIL". I am not from Bihar, my better half is, so I'm bahu of Bihar. I truly feel very sad for this soil...because all his SONS aredoing so so well eberywhere outside .. leaving this place in LURCH.. I wish many more sons stay back and contribute and bring back the OLD Glory of MAGADH and Nalanda!!</p>
+								<p>Great to hear from the "Son of the SOIL". I am not from Bihar, my better half is, so I'm bahu of Bihar. I truly feel very sad for this soil...because all his SONS are doing so so well everywhere outside .. leaving this place in LURCH.. I wish many more sons stay back and contribute and bring back the OLD Glory of MAGADH and Nalanda!!</p>
 							</div>
 						</div>
 					</div>
@@ -40,7 +40,7 @@ require('header.php');
 						<div class="col-md-8">
 							<div class="testimonial-content">
 								<h3>Dr. Kumar Vishvas</h3>
-								<p>God bless you Prakash! Positioning Bihar is just as positioning Indiaa's grace and rich history! All the best! All with you for all of your endeavours.</p>	
+								<p>God bless you Prakash! Positioning Bihar is just as positioning India's grace and rich history! All the best! All with you for all of your endeavours.</p>	
 							</div>
 						</div>
 					</div>
